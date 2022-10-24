@@ -362,6 +362,9 @@
    padding-top: 1%;
    font-size: 26px;
 }
+.e-commers section a{
+   color: white
+}
 .e-commers section .flex{
    display: flex;
    flex-direction: row;
@@ -1211,6 +1214,70 @@
    margin: 5%;
 }
 .empire_fondo .padding_create{
+   padding-left: 5%;
+   padding-right: 5%;
+   padding-top: 10%;
+   padding-bottom: 10%;
+}
+
+
+.rebellion_fondo{
+   background-image: url("https://i.pinimg.com/originals/12/d9/33/12d9335e7342dc52300b6a0cc0748544.webp");
+   background-repeat: no-repeat;
+   background-position: center top;
+   background-attachment: fixed;
+   height: 100%;
+   background-size: cover;
+   color:white;
+   text-align: center;
+   padding-top: 5%;
+   padding-left: 2%;
+   padding-right: 2%;
+}
+.rebellion_fondo main .onderon{
+   background-image: url("../img/rebels_onderon.webp");
+   background-repeat: no-repeat;
+   background-position: center top;
+   background-attachment: scroll;
+   height: 100%;
+   background-size: cover;
+   color:white;
+   text-align: center;
+   padding: 3%;
+   font-family: 'Orbitron', sans-serif;
+}
+.rebellion_fondo main .union{
+   background-image: url("../img/rebels_union.webp");
+   background-repeat: no-repeat;
+   background-position: center top;
+   background-attachment: scroll;
+   height: 100%;
+   background-size: cover;
+   color:white;
+   text-align: center;
+   padding: 3%;
+   font-family: 'Orbitron', sans-serif;
+}
+.rebellion_fondo section{
+   background-image: url("http://pm1.narvii.com/6866/b298dc36b9d67367c8bcac1cf0b708232a45f952r1-600-840v2_hq.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center top;
+   height: 100%;
+   background-size: cover;
+   text-align: center;
+   padding: 5%;
+}
+.rebellion_fondo section img{
+   height: 40%;
+   width: 40%;
+   margin-bottom: 5%;
+}
+.rebellion_fondo section .cart_battle{
+   padding: 6%;
+   height: 40%;
+}
+.rebellion_fondo .padding_create{
    padding-left: 5%;
    padding-right: 5%;
    padding-top: 10%;
