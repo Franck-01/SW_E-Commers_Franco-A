@@ -1,0 +1,100 @@
+.nav_guide{
+    font-family: 'Orbitron', sans-serif;
+    nav{
+        background-image: url("https://i.pinimg.com/originals/94/bc/07/94bc076520233b2021e4bf5e4fbe8bef.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-right: 7%;
+        margin-left: 7%;
+        ul li{
+            font-size: 24px;
+            justify-self: stretch;
+            margin-right: 7%;
+            margin-left: 7%;
+            padding: 2%;
+            text-align: justify;
+            a{
+                padding: 5%;
+                color: white;
+            }
+        }
+    }
+}
+
+.credit:hover{
+    background-repeat: no-repeat;
+    background-image: url("https://qph.cf2.quoracdn.net/main-qimg-31118da96b7ad0f4c7ce7ff2b6090641-pjlq");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.rep:hover{
+    background-repeat: no-repeat;
+    background-image: url("http://pm1.narvii.com/6285/0abadec238bd7f41a9348356f40bb891411416b7_00.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.csi:hover{
+    background-repeat: no-repeat;
+    background-image: url("https://pm1.narvii.com/6439/4b30c61839e4d26bf630955bcc4e0d6b2d625fd6_hq.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.imp:hover{
+    background-repeat: no-repeat;
+    background-image: url("http://pm1.narvii.com/6234/ea8781f4d3eb3cd255ff518b8ebb9fb815624f94_00.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.reb:hover{
+    background-repeat: no-repeat;
+    background-image: url("https://wallpapercave.com/wp/wp2149431.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.force:hover{
+    background-repeat: no-repeat;
+    background-image: url("https://www.logolynx.com/images/logolynx/79/793d84a20bb9b05b7274458fc64d581e.jpeg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.transition{
+    transform: scale(1);
+}
+.transition:hover{
+    transform: scale(1.2);
+   transition: all 500ms ease-out;
+}
+.padding_create{
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.pad_div{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-size: 26px;
+}
+.margin_div{
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+.margin_create{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}

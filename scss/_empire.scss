@@ -1,0 +1,128 @@
+.empire{
+    background-image: url("../img/purge_trooper.webp");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    height: 100%;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    header{
+        h2{
+            font-family: 'Merriweather', serif;
+        }
+    }
+    main{
+        h2{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 18px;
+        }
+        h3{
+            font-family: 'Ubuntu', sans-serif;
+        }
+        p{
+            font-family: 'Roboto Mono', monospace;
+            font-size: 18px;
+        }
+        .purge_jedi{
+            background-image: url("https://i.pinimg.com/564x/77/cf/82/77cf82611f95c1eb42503520cd445f76--star-wars-artwork-starwars-lego.jpg");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            height: 100%;
+            background-size: cover;
+            padding: 5%;
+            color: #a30404;
+            font-weight: 600;
+            a{
+                color: rgb(0, 132, 255)
+            }
+            .orden_66{
+                background-image: url("https://i.pinimg.com/originals/26/ad/4b/26ad4b68f78d21ed946ac64af8e3fad5.gif");
+                background-repeat: no-repeat;
+                background-attachment: scroll;
+                background-position: center;
+                height: 100%;
+                background-size: cover;
+                padding: 5%;
+            }
+        }
+        .empire_polity{
+            background-image: url("../img/empire_graffiti.png");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            height: 100%;
+            background-size: cover;
+            padding: 5%;
+        }
+        .civil_war{
+            background-image: url("../img/civil_war.jpg");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            height: 100%;
+            background-size: cover;
+            padding: 5%;
+            color: black;
+        }
+        .jakku_battle{
+            background-image: url("https://c.wallhere.com/photos/b7/88/Star_Wars_Jakku_science_fiction_battle_artwork-1940991.jpg!d");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            height: 100%;
+            background-size: cover;
+            padding: 5%;
+        }
+    }
+    section{
+        background-image: url("https://uvn-brightspot.s3.amazonaws.com/assets/vixes/d/death_troopers_star_wars.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        height: 100%;
+        background-size: cover;
+        padding: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        font-family: 'Merriweather', serif;
+        h2{
+            margin-top: 5%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        img{
+            height: 40%;
+            width: 40%;
+            margin-bottom: 5%;
+        }
+        h3{
+            font-family: 'Orbitron', sans-serif;
+            font-size: 28px;
+            margin-top: 3%;
+            margin-bottom: 3%;
+        }
+        p{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 28px;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+        .cart_trooper{
+            padding: 6%;
+            height: 40%;
+        }
+    }
+    .margin_create{
+        margin: 5%;
+    }
+    .padding_create_f_botton{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

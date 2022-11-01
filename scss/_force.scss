@@ -1,0 +1,232 @@
+.force_balance{
+    background-image: url("https://i.pinimg.com/originals/51/f9/9e/51f99e09f7794d3b0db87a2fc8cf1d57.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    height: 100%;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    main{
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        div{
+            padding-top: 5%;
+            padding-bottom: 5%;
+        }
+        .light_dark{
+            background-repeat: no-repeat;
+            background-image: url("https://www.logolynx.com/images/logolynx/79/793d84a20bb9b05b7274458fc64d581e.jpeg");
+            background-position: center;
+            background-size: cover;
+            text-align: center;
+            padding-left: 5%;
+            padding-right: 5%;
+
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            flex-flow: wrap;
+            align-items: center;
+            justify-content: space-between;
+            text-align: center;
+            div{
+                margin: 2%;
+                width: 40%;
+                height: auto;
+            }
+        }
+        .war_jedi{
+            background-repeat: no-repeat;
+            background-image: url("http://vignette2.wikia.nocookie.net/starwars/images/b/b9/Great_War_Jedi_vs_Sith.jpg/revision/latest?cb=20100219215520");
+            background-position: center;
+            background-size: cover;
+            text-align: center;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        .war_mandalorian{
+            background-repeat: no-repeat;
+            background-image: url("../img/war_mandalor.webp");
+            background-position: center;
+            background-size: cover;
+            text-align: center;
+            padding-left: 5%;
+            padding-right: 5%;
+            color: black;
+        }
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-flow: wrap;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        div{
+            border-radius: 20px;
+            padding: 1%;
+            height: auto;
+        }
+        .jedi{
+            background-repeat: no-repeat;
+            background-image: url("https://p4.wallpaperbetter.com/wallpaper/876/503/584/luke-skywalker-the-mandalorian-star-wars-galaxies-star-wars-jedi-hd-wallpaper-preview.jpg");
+            background-position: center;
+            background-size: cover;
+            text-align: center;
+            width: 30%;
+            div{
+                border: 2px solid #00e20b;
+                padding: 3%;
+            }
+        }
+        .sith{
+            background-repeat: no-repeat;
+            background-image: url("https://i.pinimg.com/originals/77/70/51/7770513ffe906b604b3695dc68255e90.jpg");
+            background-position: center;
+            background-size: cover;
+            text-align: center;
+            width: 30%;
+            div{
+                border: 2px solid #ff0000;
+                padding: 3%;
+            }
+        }
+        .jedi_grey{
+            background-repeat: no-repeat;
+            background-image: url("http://pm1.narvii.com/7090/91c32627d53643442ae95f22b968865a0e836f72r1-600-849v2_00.jpg");
+            background-position: center;
+            background-size: cover;
+            text-align: center;
+            width: 30%;
+            div{
+                border: 2px solid #61666e;
+                padding: 3%;
+            }
+        } 
+    }
+}
+@media screen and (max-width: 768px){
+    .force_balance{
+        section{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            flex-flow: wrap;
+            align-items: stretch;
+            justify-content: space-between;
+            justify-content: center;
+            text-align: center;
+
+            margin-left: 3%;
+            margin-right: 3%;
+            div{
+                border-radius: 20px;
+                padding: 2%;
+                height: auto;
+            }
+            .jedi{
+                background-repeat: no-repeat;
+                background-image: url("http://m.gettywallpapers.com/wp-content/uploads/2022/03/Obi-Wan-Kenobi-Background-576x1024.jpg");
+                background-position: center;
+                background-size: cover;
+                text-align: center;
+                width: 45%;
+                div{
+                    border: 3px solid #0059ff;
+                    padding: 3%;
+                }
+            }
+            .sith{
+                background-repeat: no-repeat;
+                background-image: url("https://wallpaperaccess.com/full/2719303.jpg");
+                background-position: center;
+                background-size: cover;
+                text-align: center;
+                width: 45%;
+                div{
+                    border: 3px solid #ff0000;
+                    padding: 3%;
+                }
+            }
+            .jedi_grey{
+                background-repeat: no-repeat;
+                background-image: url("https://i.pinimg.com/736x/f5/10/0b/f5100bb50d58f118c5b54858c66755e1--star-wars-jedi-star-wars-art.jpg");
+                background-position: center;
+                background-size: cover;
+                text-align: center;
+                width: 80%;
+                div{
+                    border: 3px solid #d1c303;
+                    padding: 3%;
+                }
+            }
+        }
+    }
+    
+}
+@media screen and (max-width: 600px){
+    .force_balance{
+        section{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            flex-flow: wrap;
+            align-items: stretch;
+            justify-content: space-between;
+            justify-content: center;
+            text-align: center;
+
+            margin-left: 3%;
+            margin-right: 3%;
+            div{
+                border-radius: 20px;
+                padding: 5%;
+                height: auto;
+            }
+            .jedi{
+                background-repeat: no-repeat;
+                background-image: url("https://cdn.wallpapersafari.com/68/31/ZnylIh.jpg");
+                background-position: center;
+                background-size: cover;
+                text-align: center;
+                width: 80%;
+                div{
+                    border: 5px solid #54b7f8;
+                    padding: 3%;
+                }
+            }
+            .sith{
+                background-repeat: no-repeat;
+                background-image: url("https://pm1.narvii.com/6906/9ee3c63e40a56acd09967908ac1474c466e22d29r1-1280-800v2_hq.jpg");
+                background-position: center;
+                background-size: cover;
+                text-align: center;
+                width: 80%;
+                div{
+                    border: 5px solid #c90101;
+                    padding: 3%;
+                }
+            }
+            .jedi_grey{
+                background-repeat: no-repeat;
+                background-image: url("https://i.pinimg.com/originals/f0/15/97/f01597a146d6c5a1577cc74449551bd1.jpg");
+                background-position: center;
+                background-size: cover;
+                text-align: center;
+                width: 80%;
+                div{
+                    border: 5px solid #d47f00;
+                    padding: 3%;
+                    color: #919191;
+                }
+            }
+        }
+    }
+}

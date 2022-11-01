@@ -1,0 +1,179 @@
+.principal{
+    background-image: url("https://sm.ign.com/t/ign_latam/screenshot/default/vader1_ty7m.1280.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    height: 100%;
+    background-size: cover;
+    padding-right: 2%;
+    padding-left: 2%;
+    color: black;
+    text-align: center;
+
+    display: grid;
+    align-content: stretch;
+    justify-items: stretch;
+    justify-content: stretch;
+    grid-template-areas: 
+    "header header"
+    "nav main"
+    "nav section";
+    grid-template-columns: 35% 65%;
+    gap:2%;
+    header{
+        grid-area: header;
+        padding: 5%;
+    }
+    nav{
+        grid-area: nav;
+
+        background-image: url("https://i.pinimg.com/originals/94/bc/07/94bc076520233b2021e4bf5e4fbe8bef.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: white;
+        font-family: 'Orbitron', sans-serif;
+        ul li{
+            font-family: 'Orbitron', sans-serif;
+            font-size: 24px;
+            justify-self: stretch;
+            margin-right: 3%;
+            margin-left: 3%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            padding: 5%;
+            text-align: justify;
+            a{
+                padding: 5%;
+                color: white;
+            }
+        }
+    }
+    main{
+        grid-area: main;
+        h2{
+            font-family: 'Bree Serif', serif;
+            text-align: center;
+        }
+        div{
+            font-style: oblique;
+            margin: 5%; 
+            padding: 5%;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        div:hover{
+            background-image: url("https://www.logolynx.com/images/logolynx/46/466b40882cc9a58ff5756e14032101c6.jpeg");
+            background-size: cover;
+            color: white;
+            text-transform: uppercase;
+            margin: 5%; 
+            padding: 5%;
+            font-family: 'Shadows Into Light Two', cursive;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+    section{
+        grid-area: section;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-flow: wrap;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        font-size: 18px;
+        div{
+            border: 2px solid #ffffff00;
+            margin: 2%;
+            width: 40%;
+            height: auto;
+            border-radius: 10px;
+            font-family: 'Bree Serif', serif;
+            h3{
+                font-family: 'Kanit', sans-serif;
+                text-align: center;
+            }
+            img{
+                height: auto;
+                width: 100%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .principal{
+        display: grid;
+        align-content: stretch;
+        justify-items: stretch;
+        justify-content: stretch;
+        grid-template-rows: auto auto;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 
+        "header header"
+        "nav main"
+        "nav section";
+        gap:2%;
+        section{
+            grid-area: section;
+
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            flex-flow: wrap;
+            align-items: center;
+            justify-content: space-between;
+            text-align: center;
+            font-size: 18px;
+            div{
+                border: 2px solid #ffffff00;
+                margin: 2%;
+                width: 80%;
+                height: auto;
+                border-radius: 10px;
+                font-family: 'Bree Serif', serif;
+            }
+        }
+    }
+}
+@media screen and (max-width: 600px){
+    .principal{
+        display: grid;
+        align-content: stretch;
+        justify-items: stretch;
+        justify-content: stretch;
+        grid-template-rows: auto auto;
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        " header"
+        "nav"
+        " main"
+        " section";
+        gap:2%;
+        nav{
+            grid-area: nav;
+
+            background-image: url("https://i.pinimg.com/originals/94/bc/07/94bc076520233b2021e4bf5e4fbe8bef.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            ul li{
+                font-family: 'Orbitron', sans-serif;
+                font-size: 24px;
+                justify-self: stretch;
+                margin-right: 3%;
+                margin-left: 3%;
+                margin-top: 5%;
+                margin-bottom: 5%;
+                padding: 5%;
+                text-align: justify;
+                a{
+                    padding: 5%;
+                    color: white;
+                }
+            }
+        }
+    }
+}

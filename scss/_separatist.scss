@@ -1,0 +1,163 @@
+.separatist{
+    background-image: url("https://frikipolis.com/wp-content/uploads/2022/04/65600769f031b9c1bb3cb0f5622f0b75c914a3c2r1-1024-655v2_hq.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    height: 100%;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0px;
+    header{
+        font-size: 24px;
+        font-family: 'Orbitron', sans-serif;
+    }
+    main{
+        font-size: 20px;
+        font-family: 'Alkalami', serif;
+        h3{
+            font-size: 26px;
+        }
+        img{
+            height: 80%;
+            width: 100%;
+        }
+        p:hover{
+            color: #0038ee;
+            font-style: italic;
+        }
+    }
+    section{
+        img{
+            height: 40%;
+            width: 60%;
+        }
+        p{
+            font-size: 18px;
+            font-family: 'Roboto Mono', monospace;
+        }
+        .factory{
+            background-image: url("https://lumiere-a.akamaihd.net/v1/images/screen_shot_2015-05-13_at_4_46a06f3e.jpeg?region=96%2C0%2C2067%2C1035");
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-attachment: scroll;
+            height: 100%;
+            background-size: cover;
+            padding: 3%;
+            font-family: 'Orbitron', sans-serif;
+            p:hover{
+                color: #008800;
+                font-style: oblique;
+            }
+        }
+        .clone_wars{
+            background-image: url("https://allgamersin.com/wp-content/uploads/2019/03/Star-Wars-Battlefront2-modo-Supremacia-Capital_1.jpg");
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-attachment: scroll;
+            height: 100%;
+            background-size: cover;
+            padding: 3%;
+            font-family: 'Roboto Mono', monospace;
+            font-size: 22px;
+            i{
+                font-size: 18px;
+            }
+            i:hover{
+                color: #000000;
+                font-weight: 800;
+            }
+        }
+        .droid_army{
+            background-image: url("../img/droide_background.jpg");
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-attachment: fixed;
+            height: 100%;
+            background-size: cover;
+            padding: 3%;
+            .flex{
+                display: flex;
+                flex-direction: row;
+                padding-left: 2%;
+                padding-right: 2%;
+                align-items: baseline;
+                justify-content: space-between;
+                font-family: 'Playfair Display', serif;
+                font-size: 22px;
+                .black{
+                    background-color: black;
+                    background-size: cover;
+                    h3{
+                        padding: 3%;
+                    }
+                }
+                .cart_droid{
+                    margin-left: 1%;
+                    margin-right: 1%;
+                    text-align: center;
+                    width: 45%;
+                    height: auto;
+                    border: 4px solid #ffffff;
+                    border-radius: 10px;
+                    .fed_comercio{
+                        background-image: url("https://gcdn.lanetaneta.com/wp-content/uploads/2022/01/Star-Wars-Eclipse-%C2%BFLa-Federacion-de-Comercio-rompe-la-linea.5.jpeg");
+                        background-repeat: no-repeat;
+                        background-position: center top;
+                        background-attachment: scroll;
+                        background-size: cover;
+                        p:hover{
+                            color: black;
+                            font-weight: bolder;
+                        }
+                    }
+                    .tec_union{
+                        background-image: url("../img/Techno_Union.svg.webp");
+                        background-repeat: no-repeat;
+                        background-position: center top;
+                        background-attachment: scroll;
+                        background-size: cover;
+                        p:hover{
+                            color: black;
+                            font-weight: bolder;
+                        }
+                    }
+                }
+            }
+            h3{
+                font-family: 'Kanit', sans-serif;
+                font-size: 28px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .separatist{
+        section{
+            .droid_army{
+                .flex{
+                    display: flex;
+                    flex-direction: row;
+                    padding-left: 2%;
+                    padding-right: 2%;
+                    flex-wrap: wrap;
+                    flex-flow: wrap;
+                    align-items: baseline;
+                    justify-content: space-between;
+                    .cart_droid{
+                        margin: 5%;
+                        text-align: center;
+                        width: 100%;
+                        img{
+                            height: 40%;
+                            width: 60%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
