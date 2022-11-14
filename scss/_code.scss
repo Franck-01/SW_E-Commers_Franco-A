@@ -1,5 +1,8 @@
 .nav_guide{
     font-family: 'Orbitron', sans-serif;
+    a{
+        font-size: 24px;
+    }
     nav{
         background-image: url("https://i.pinimg.com/originals/94/bc/07/94bc076520233b2021e4bf5e4fbe8bef.jpg");
         background-repeat: no-repeat;
@@ -61,6 +64,13 @@
     background-repeat: no-repeat;
     background-image: url("https://www.logolynx.com/images/logolynx/79/793d84a20bb9b05b7274458fc64d581e.jpeg");
     background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.contact_user:hover{
+    background-repeat: no-repeat;
+    background-image: url("../img/trooper_company.webp");
+    background-position: center top;
     background-size: cover;
     text-align: center;
 }

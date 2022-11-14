@@ -10,6 +10,12 @@
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
+    header{
+        h2{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 31px;
+        }
+    }
     main{
         padding-top: 2%;
         padding-left: 2%;
@@ -23,6 +29,10 @@
             background-size: cover;
             padding: 5%;
             font-family: 'Orbitron', sans-serif;
+            p{
+                font-family: 'Kanit', sans-serif;
+                font-size: 20px;
+            }
         }
         .union{
             background-image: url("../img/rebels_union.webp");
@@ -33,6 +43,10 @@
             background-size: cover;
             padding: 5%;
             font-family: 'Orbitron', sans-serif;
+            p{
+                font-family: 'Roboto', sans-serif;
+                font-size: 20px;
+            }
         }
     }
     section{
@@ -43,6 +57,12 @@
         height: 100%;
         background-size: cover;
         padding: 5%;
+        h4{
+            font-family: 'Ubuntu', sans-serif;
+        }
+        p{
+            font-family: 'Merriweather', serif;
+        }
         img{
             height: 40%;
             width: 40%;
