@@ -1,13 +1,13 @@
 .principal {
-  background-image: url("https://sm.ign.com/t/ign_latam/screenshot/default/vader1_ty7m.1280.jpg");
+  background-image: url("https://4kwallpapers.com/images/wallpapers/sith-star-wars-lightsaber-dark-background-2048x2048-5554.jpg");
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center;
   background-attachment: fixed;
   height: 100%;
   background-size: cover;
   padding-right: 2%;
   padding-left: 2%;
-  color: black;
+  color: white;
   text-align: center;
   display: grid;
   align-content: stretch;
@@ -17,33 +17,20 @@
   grid-template-columns: 35% 65%;
   gap: 2%; }
   .principal header {
-    grid-area: header;
-    padding: 5%; }
+    grid-area: header; }
+    .principal header h1 {
+      padding: 5%; }
   .principal nav {
-    grid-area: nav;
-    background-image: url("https://i.pinimg.com/originals/94/bc/07/94bc076520233b2021e4bf5e4fbe8bef.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: white;
-    font-family: 'Orbitron', sans-serif; }
+    grid-area: nav; }
     .principal nav ul li {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 24px;
-      justify-self: stretch;
       margin-right: 3%;
       margin-left: 3%;
       margin-top: 5%;
       margin-bottom: 5%;
-      padding: 5%;
-      text-align: justify; }
-      .principal nav ul li a {
-        padding: 5%;
-        color: white; }
+      padding: 5%; }
   .principal main {
     grid-area: main; }
     .principal main h2 {
-      font-family: 'Bree Serif', serif;
       text-align: center; }
     .principal main div {
       font-style: oblique;
@@ -54,11 +41,11 @@
     .principal main div:hover {
       background-image: url("https://www.logolynx.com/images/logolynx/46/466b40882cc9a58ff5756e14032101c6.jpeg");
       background-size: cover;
-      color: white;
+      background-repeat: no-repeat;
+      background-position: center top;
       text-transform: uppercase;
       margin: 5%;
       padding: 5%;
-      font-family: 'Shadows Into Light Two', cursive;
       text-transform: uppercase;
       font-weight: bold; }
   .principal section {
@@ -69,21 +56,19 @@
     flex-flow: wrap;
     align-items: center;
     justify-content: space-between;
-    text-align: center;
-    font-size: 18px; }
+    text-align: center; }
     .principal section div {
-      border: 2px solid #ffffff00;
       margin: 2%;
       width: 40%;
       height: auto;
-      border-radius: 10px;
-      font-family: 'Bree Serif', serif; }
+      border-radius: 10px; }
       .principal section div h3 {
-        font-family: 'Kanit', sans-serif;
         text-align: center; }
       .principal section div img {
         height: auto;
-        width: 100%; }
+        width: 100%;
+        border-radius: 20%;
+        display: block; }
 
 @media screen and (max-width: 768px) {
   .principal {
@@ -103,15 +88,12 @@
       flex-flow: wrap;
       align-items: center;
       justify-content: space-between;
-      text-align: center;
-      font-size: 18px; }
+      text-align: center; }
       .principal section div {
-        border: 2px solid #ffffff00;
         margin: 2%;
         width: 80%;
         height: auto;
-        border-radius: 10px;
-        font-family: 'Bree Serif', serif; } }
+        border-radius: 10px; } }
 
 @media screen and (max-width: 600px) {
   .principal {
@@ -130,18 +112,15 @@
       background-position: center;
       background-size: cover; }
       .principal nav ul li {
-        font-family: 'Orbitron', sans-serif;
-        font-size: 24px;
         justify-self: stretch;
         margin-right: 3%;
         margin-left: 3%;
         margin-top: 5%;
         margin-bottom: 5%;
         padding: 5%;
-        text-align: justify; }
+        text-align: center; }
         .principal nav ul li a {
-          padding: 5%;
-          color: white; } }
+          padding: 5%; } }
 
 .e_commers {
   background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/exegol-1578431600.png?crop=0.832xw:1.00xh;0.0978xw,0&resize=1200:*");
@@ -162,7 +141,6 @@
       height: 30%;
       width: 80%; }
     .e_commers header h1 {
-      font-size: 26px;
       padding-top: 4%;
       padding-bottom: 4%; }
   .e_commers main {
@@ -178,56 +156,6 @@
     margin-right: 10%; }
     .e_commers section a {
       color: white; }
-    .e_commers section .cart_ship {
-      padding: 6%;
-      margin-left: 6%;
-      margin-right: 6%;
-      text-align: center;
-      width: 89%;
-      height: 80%; }
-      .e_commers section .cart_ship img {
-        height: 40%;
-        width: 60%; }
-    .e_commers section .rep:hover {
-      height: 100%;
-      color: white; }
-    .e_commers section .csi:hover {
-      height: 100%;
-      color: white; }
-    .e_commers section .imp:hover {
-      height: 100%;
-      color: white; }
-    .e_commers section .reb:hover {
-      height: 100%;
-      color: white; }
-    .e_commers section .rep:hover {
-      background-repeat: no-repeat;
-      background-image: url("http://pm1.narvii.com/6285/0abadec238bd7f41a9348356f40bb891411416b7_00.jpg");
-      background-position: center;
-      background-size: cover;
-      text-align: center;
-      height: 100%; }
-    .e_commers section .csi:hover {
-      background-repeat: no-repeat;
-      background-image: url("https://pm1.narvii.com/6439/4b30c61839e4d26bf630955bcc4e0d6b2d625fd6_hq.jpg");
-      background-position: center;
-      background-size: cover;
-      text-align: center;
-      height: 100%; }
-    .e_commers section .imp:hover {
-      background-repeat: no-repeat;
-      background-image: url("http://pm1.narvii.com/6234/ea8781f4d3eb3cd255ff518b8ebb9fb815624f94_00.jpg");
-      background-position: center;
-      background-size: cover;
-      text-align: center;
-      height: 100%; }
-    .e_commers section .reb:hover {
-      background-repeat: no-repeat;
-      background-image: url("https://wallpapercave.com/wp/wp2149431.jpg");
-      background-position: center;
-      background-size: cover;
-      text-align: center;
-      height: 100%; }
     .e_commers section .flex {
       display: flex;
       flex-direction: row;
@@ -237,18 +165,29 @@
       align-items: baseline;
       justify-content: space-between; }
       .e_commers section .flex div {
-        border: 2px solid #ffffff;
+        border: 6px double white;
+        box-shadow: 0 0 25px white;
         padding: 2%;
         margin: 2%;
         text-align: center;
         width: 40%;
         height: auto;
-        background: #020024;
-        background: radial-gradient(circle, rgba(2, 0, 36, 0) 0%, #061791 57%, black 100%);
         border-radius: 10px; }
         .e_commers section .flex div img {
           height: 40%;
           width: 60%; }
+      .e_commers section .flex .rep_ship {
+        background: #020024;
+        background: radial-gradient(circle, rgba(2, 0, 36, 0) 0%, #0f219f 39%, black 100%); }
+      .e_commers section .flex .csi_ship {
+        background: #020024;
+        background: radial-gradient(circle, rgba(2, 0, 36, 0) 0%, #5b5b5b 39%, black 100%); }
+      .e_commers section .flex .emp_ship {
+        background: #020024;
+        background: radial-gradient(circle, rgba(2, 0, 36, 0) 0%, #9f0f0f 39%, black 100%); }
+      .e_commers section .flex .reb_ship {
+        background: #020024;
+        background: radial-gradient(circle, rgba(2, 0, 36, 0) 0%, #9f5c0f 39%, black 100%); }
 
 @media screen and (max-width: 768px) {
   .e_commers section .flex {
@@ -260,43 +199,18 @@
     align-items: baseline;
     justify-content: space-between; }
     .e_commers section .flex div {
-      border: 2px solid #ffffff;
-      padding: 2%;
-      margin: 2%;
-      text-align: center;
       width: 100%;
-      height: auto;
-      background: #020024;
-      background: radial-gradient(circle, rgba(2, 0, 36, 0) 0%, #061791 57%, black 100%);
-      border-radius: 10px; } }
+      height: auto; } }
 
 @media screen and (max-width: 600px) {
   .e_commers header img {
     height: 100%;
-    width: 100%; }
-  .e_commers section .flex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-flow: wrap;
-    padding: 10%;
-    align-items: baseline;
-    justify-content: space-between; }
-    .e_commers section .flex div {
-      border: 2px solid #ffffff;
-      padding: 2%;
-      margin: 2%;
-      text-align: center;
-      width: 100%;
-      height: auto;
-      background: white;
-      background: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, #9a0808 38%, black 87%);
-      border-radius: 10px; } }
+    width: 100%; } }
 
 .republic {
-  background-image: url("https://www.starwarsnewsnet.com/wp-content/uploads/2021/11/Star-Wars-The-Old-Republic-Action-Scene.png");
+  background-image: url("https://64.media.tumblr.com/3082189dc21f71bddde6916fac52b57d/d8758a3ec87488c1-b7/s1280x1920/5f447b56277982604bcfdc3d9d71cb9a1238b322.png");
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center;
   background-attachment: fixed;
   height: 100%;
   background-size: cover;
@@ -305,203 +219,113 @@
   padding-top: 3%;
   padding-left: 5%;
   padding-right: 5%; }
-  .republic header {
-    font-size: 24px;
-    font-family: 'Orbitron', sans-serif; }
-  .republic main {
-    font-family: 'Bree Serif', serif;
-    font-size: 20px; }
-    .republic main .flex div {
-      padding: 2%;
-      margin: 2%;
-      width: 45%; }
-      .republic main .flex div h3 {
-        font-size: 26px; }
-      .republic main .flex div img {
-        height: 60%;
-        width: 100%; }
-    .republic main p {
-      text-align: justify;
-      padding-left: 3%;
-      padding-right: 3%; }
-    .republic main p:hover {
-      color: #1e03b6; }
-  .republic section {
-    font-family: 'DM Serif Display', serif;
-    font-size: 20px;
-    padding: 3%; }
-    .republic section .kamino {
-      background-image: url("https://live.staticflickr.com/5654/30747840391_f65e3987a9_b.jpg");
-      background-repeat: no-repeat;
-      background-attachment: scroll;
-      background-position: center;
-      background-size: cover; }
-      .republic section .kamino h2 {
-        font-family: 'Anton', sans-serif;
-        font-size: 36px; }
-    .republic section .geonosis {
-      background-image: url("../img/ataque_geonosis.jpg");
-      background-repeat: no-repeat;
-      background-attachment: scroll;
-      background-position: center;
-      background-size: cover; }
-    .republic section div {
-      background-image: url("https://gcdn.lanetaneta.com/wp-content/uploads/2019/07/Send-In-The-Clones-10-preguntas-sobre-los-soldados-clon-780x405.jpg");
-      background-repeat: no-repeat;
-      background-position: center top;
-      background-attachment: fixed;
-      height: 100%;
-      background-size: cover;
-      padding: 3%; }
-      .republic section div h3 {
-        font-family: 'Orbitron', sans-serif; }
-      .republic section div h4 {
-        font-family: 'Orbitron', sans-serif;
-        color: black;
-        font-weight: bold;
-        border: 10px dashed black;
-        padding: 2%;
-        margin: 8%;
-        text-transform: uppercase;
-        background: black;
-        background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, white 50%); }
-      .republic section div h4:hover {
-        transition: all 500ms ease-out;
-        color: white;
-        font-weight: bold;
-        border: 10px dashed white;
-        background: black;
-        background: linear-gradient(90deg, black 50%, rgba(255, 255, 255, 0) 100%); }
-      .republic section div div {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        flex-flow: wrap;
-        align-items: baseline;
-        justify-content: center; }
-        .republic section div div .cart {
-          border: 6px double #ffffff;
-          box-shadow: 0 0 25px #000000;
-          text-shadow: 0 0 15px white;
-          color: black;
-          border-radius: 10px;
-          padding-left: 5%;
-          padding-right: 5%;
-          margin: 2%;
-          text-align: center;
-          width: 45%;
-          height: auto;
-          font-family: 'Bree Serif', serif; }
-        .republic section div div .marines_4 {
-          background-image: url("https://github.com/Franck-01/Proyect_07/blob/main/srx/public/img/4_ejercito_de_sector.jpg?raw=true");
-          background-repeat: no-repeat;
-          background-attachment: scroll;
-          background-position: center; }
-        .republic section div div .marines_4:hover {
-          border: 6px double #4f006e;
-          box-shadow: 0 0 25px #4f006e;
-          text-shadow: 0 0 20px #ff85cc;
-          color: #ff85cc; }
-        .republic section div div .batall_212 {
-          background-image: url("https://pbs.twimg.com/media/FPGdzSGXoAMN1XF.jpg");
-          background-repeat: no-repeat;
-          background-attachment: scroll;
-          background-position: center; }
-        .republic section div div .batall_212:hover {
-          border: 6px double #ffbb00;
-          box-shadow: 0 0 25px #ffbb00;
-          text-shadow: 0 0 20px #ffbb00;
-          color: #ffbb00; }
-        .republic section div div .elite_41 {
-          background-image: url("https://pm1.narvii.com/6978/7c22923d4a21ce46cdebe4a7232b68677e364635r1-1920-1080v2_hq.jpg");
-          background-repeat: no-repeat;
-          background-attachment: scroll;
-          background-position: center; }
-        .republic section div div .elite_41:hover {
-          border: 6px double #005218;
-          box-shadow: 0 0 25px #005218;
-          text-shadow: 0 0 20px #038f2d;
-          color: #038f2d; }
-        .republic section div div .movil_91 {
-          background-image: url("https://github.com/Franck-01/Proyect_07/blob/main/srx/public/img/91_cuerpo_de_reconocimiento_movil.jpg?raw=true");
-          background-repeat: no-repeat;
-          background-attachment: scroll;
-          background-position: center; }
-        .republic section div div .movil_91:hover {
-          border: 6px double white;
-          box-shadow: 0 0 25px white;
-          text-shadow: 0 0 20px #f34242;
-          color: #f34242; }
-        .republic section div div .star_327 {
-          background-image: url("https://github.com/Franck-01/Proyect_07/blob/main/srx/public/img/star_corps_327.jpeg?raw=true");
-          background-repeat: no-repeat;
-          background-attachment: scroll;
-          background-position: center; }
-        .republic section div div .star_327:hover {
-          border: 6px double #634c03;
-          box-shadow: 0 0 25px #634c03;
-          text-shadow: 0 0 20px #ffa600;
-          color: #ffa600; }
-        .republic section div div .legion_501 {
-          background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a0853385-8a52-4b79-89c3-ffe5a26ba950/de6ztm6-d8cf094b-c766-4445-bc95-04a56aac9704.jpg/v1/fill/w_1192,h_670,q_70,strp/star_wars___anakin_skywalker_and_the_501st_by_andibaze_de6ztm6-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvYTA4NTMzODUtOGE1Mi00Yjc5LTg5YzMtZmZlNWEyNmJhOTUwXC9kZTZ6dG02LWQ4Y2YwOTRiLWM3NjYtNDQ0NS1iYzk1LTA0YTU2YWFjOTcwNC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.1yoWxSrwnL1I0mBbjF__syOJpTwuzEl419rpZeeCmwE");
-          background-repeat: no-repeat;
-          background-attachment: scroll;
-          background-position: center; }
-        .republic section div div .legion_501:hover {
-          border: 6px double #0012b8;
-          box-shadow: 0 0 25px #0012b8;
-          text-shadow: 0 0 20px #127bf3;
-          color: #127bf3; }
-        .republic section div div .company_322 {
-          background-image: url("https://i.pinimg.com/originals/f8/76/48/f876482ebf67ec287cd0462f52f29b80.jpg");
-          background-repeat: no-repeat;
-          background-attachment: scroll;
-          background-position: center; }
-        .republic section div div .company_322:hover {
-          color: #c06701;
-          box-shadow: 0 0 25px #c06701;
-          text-shadow: 0 0 20px #c06701; }
-        .republic section div div .batall_104 {
-          background-image: url("https://pm1.narvii.com/6621/f4ac126824d448213976bc049bc9cc0fa5d9c307_hq.jpg");
-          background-repeat: no-repeat;
-          background-attachment: scroll;
-          background-position: center; }
-        .republic section div div .batall_104:hover {
-          border: 6px double #3f3f3f;
-          box-shadow: 0 0 25px #3f3f3f;
-          text-shadow: 0 0 20px white;
-          color: white; }
-        .republic section div div .coruscant {
-          background-image: url("https://wallpapercave.com/wp/wp2069345.jpg");
-          background-repeat: no-repeat;
-          background-attachment: scroll;
-          background-position: center; }
-        .republic section div div .coruscant:hover {
-          border: 6px double #460000;
-          box-shadow: 0 0 25px #460000;
-          text-shadow: 0 0 20px red;
-          color: red; }
-        .republic section div div .bad_99 {
-          background-image: url("https://lumiere-a.akamaihd.net/v1/images/610be24859bb270001e56d7c-image_5d11d124.jpeg?region=0%2C0%2C1536%2C864");
-          background-repeat: no-repeat;
-          background-attachment: scroll;
-          background-position: center; }
-        .republic section div div .bad_99:hover {
-          border: 6px double black;
-          box-shadow: 0 0 25px black;
-          text-shadow: 0 0 20px #960505;
-          color: #960505; }
-        .republic section div div .delta {
-          background-image: url("https://images.squarespace-cdn.com/content/v1/5fbc4a62c2150e62cfcb09aa/ab756c56-8442-4f7c-a304-c7db1eec3c6c/658109-star-wars-republic-commando-sci-fi-strategy-tactical-shooter-action-fighting-1swrc-1.jpg");
-          background-repeat: no-repeat;
-          background-attachment: scroll;
-          background-position: center; }
-        .republic section div div .delta:hover {
-          border: 6px double white;
-          box-shadow: 0 0 25px white;
-          text-shadow: 0 0 20px white;
-          color: #cf0505; }
-  .republic .final_war {
+  .republic header h2 {
+    text-shadow: 0 0 25px #8d0000; }
+  .republic main p {
+    color: white;
+    text-shadow: 0 0 20px #0235db;
+    font-weight: 600; }
+  .republic main .republic_history {
+    background-image: url("../img/republic_logo.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    height: 100%;
+    background-size: cover;
+    padding: 5%; }
+  .republic main .kamino {
+    background-image: url("https://live.staticflickr.com/5654/30747840391_f65e3987a9_b.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    height: 100%;
+    background-size: cover;
+    padding: 5%; }
+  .republic main .geonosis {
+    background-image: url("https://pbs.twimg.com/media/DzfSp0xWoAYu0e_.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    height: 100%;
+    background-size: cover;
+    padding: 5%; }
+  .republic main button {
+    padding: 1.1%; }
+  .republic section .clones {
+    background-image: url("https://i.pinimg.com/564x/4d/ff/95/4dff95c6a774e7ba5312f8e2494a8f14.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    height: 100%;
+    background-size: cover;
+    padding: 3%;
+    margin-top: 5%; }
+    .republic section .clones img {
+      height: 450px;
+      width: auto; }
+    .republic section .clones h2 {
+      text-shadow: 0 0 25px #8d0000; }
+    .republic section .clones .marines_4 {
+      text-shadow: 0 0 20px #ff85cc;
+      color: #ff85cc; }
+      .republic section .clones .marines_4 img {
+        border: 6px double #4f006e;
+        box-shadow: 0 0 25px #4f006e; }
+    .republic section .clones .batall_212 {
+      text-shadow: 0 0 20px #ffbb00;
+      color: #ffbb00; }
+      .republic section .clones .batall_212 img {
+        border: 6px double #ffbb00;
+        box-shadow: 0 0 25px #ffbb00; }
+    .republic section .clones .elite_41 {
+      text-shadow: 0 0 20px #038f2d;
+      color: #038f2d; }
+      .republic section .clones .elite_41 img {
+        border: 6px double #005218;
+        box-shadow: 0 0 25px #005218; }
+    .republic section .clones .movil_91 {
+      text-shadow: 0 0 20px #f34242;
+      color: white; }
+      .republic section .clones .movil_91 img {
+        border: 6px double white;
+        box-shadow: 0 0 25px #f34242; }
+    .republic section .clones .star_327 {
+      text-shadow: 0 0 20px #ffa600;
+      color: #ffa600; }
+      .republic section .clones .star_327 img {
+        border: 6px double #634c03;
+        box-shadow: 0 0 25px #634c03; }
+    .republic section .clones .legion_501 {
+      text-shadow: 0 0 20px #127bf3;
+      color: white; }
+      .republic section .clones .legion_501 img {
+        border: 6px double #0012b8;
+        box-shadow: 0 0 25px #0012b8; }
+    .republic section .clones .batall_104 {
+      text-shadow: 0 0 20px white;
+      color: white; }
+      .republic section .clones .batall_104 img {
+        border: 6px double #3f3f3f;
+        box-shadow: 0 0 25px #3f3f3f; }
+    .republic section .clones .coruscant {
+      text-shadow: 0 0 20px red;
+      color: white; }
+      .republic section .clones .coruscant img {
+        border: 6px double #460000;
+        box-shadow: 0 0 25px #460000; }
+    .republic section .clones .bad_99 {
+      text-shadow: 0 0 20px #960505;
+      color: white; }
+      .republic section .clones .bad_99 img {
+        border: 6px double black;
+        box-shadow: 0 0 25px #960505; }
+    .republic section .clones .delta {
+      text-shadow: 0 0 20px #cf0505;
+      color: #d6c803; }
+      .republic section .clones .delta img {
+        border: 6px double #8d4400;
+        box-shadow: 0 0 25px #006800; }
+  .republic section .final_war {
     background-image: url("https://i.pinimg.com/originals/8c/1f/1c/8c1f1c008e1a5b71d5292b65bd8eb52c.jpg");
     background-repeat: no-repeat;
     background-position: center top;
@@ -510,110 +334,55 @@
     background-size: cover;
     color: white;
     text-align: center;
-    padding-top: 5%;
     padding-left: 5%;
-    padding-right: 5%;
-    font-family: 'Orbitron', sans-serif; }
-    .republic .final_war .flex div {
+    padding-right: 5%; }
+    .republic section .final_war .flex div {
       margin: 1%;
       width: 49%; }
-    .republic .final_war .red:hover {
+    .republic section .final_war p {
+      color: white;
+      text-shadow: 0 0 20px #0235db;
+      font-weight: 600;
+      padding-left: 5%;
+      padding-right: 5%; }
+    .republic section .final_war p:hover {
       transition: all 500ms ease-out;
       color: #b80000;
       text-shadow: 0 0 20px white;
-      font-weight: 700; }
-    .republic .final_war p {
-      font-family: 'Bree Serif', serif;
-      font-size: 22px;
+      font-weight: 600;
       padding-left: 5%;
       padding-right: 5%; }
   .republic .padding_create_min {
     padding: 2%; }
 
 @media screen and (max-width: 768px) {
-  .republic main .flex {
-    display: flex;
-    flex-direction: column;
-    padding-left: 2%;
-    padding-right: 2%; }
-    .republic main .flex div {
-      padding: 2%;
-      margin: 2%;
-      text-align: center;
-      width: 100%;
-      height: auto; }
-      .republic main .flex div img {
-        height: 60%;
-        width: 100%; }
-    .republic main .flex p {
-      text-align: justify;
-      padding-left: 3%;
-      padding-right: 3%; }
-    .republic main .flex p:hover {
-      color: #1e03b6; }
-  .republic section .cart {
-    border: 6px double #ffffff;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin: 2%;
-    text-align: center;
-    width: 90%;
-    height: auto;
-    border-radius: 10px;
-    font-family: 'Bree Serif', serif; }
-  .republic .final_war .flex {
+  .republic section .clones img {
+    height: 350px; }
+  .republic section .final_war .flex {
     display: flex;
     flex-direction: column-reverse;
     padding-left: 5%;
     padding-right: 5%; }
-    .republic .final_war .flex div {
+    .republic section .final_war .flex div {
       margin: 1%;
       text-align: center;
       width: 90%; } }
 
 @media screen and (max-width: 600px) {
-  .republic main .flex {
-    display: flex;
-    flex-direction: column;
-    padding-left: 2%;
-    padding-right: 2%; }
-    .republic main .flex div {
-      padding: 2%;
-      margin: 2%;
-      text-align: center;
-      width: 100%;
-      height: auto; }
-      .republic main .flex div img {
-        height: 60%;
-        width: 100%; }
-    .republic main .flex p {
-      text-align: justify;
-      padding-left: 3%;
-      padding-right: 3%; }
-    .republic main .flex p:hover {
-      color: #1e03b6; }
-  .republic section div div .cart {
-    border: 6px double #ffffff;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin: 2%;
-    text-align: center;
-    width: 90%;
-    height: auto;
-    border-radius: 10px;
-    font-family: 'Bree Serif', serif; }
-  .republic .final_war .flex {
+  .republic section .clones img {
+    height: 200px; }
+  .republic section .final_war .flex {
     display: flex;
     flex-direction: column-reverse;
     padding-left: 5%;
     padding-right: 5%; }
-    .republic .final_war .flex div {
+    .republic section .final_war .flex div {
       margin: 1%;
       text-align: center;
       width: 90%; } }
 
 .separatist {
-  background-image: url("https://frikipolis.com/wp-content/uploads/2022/04/65600769f031b9c1bb3cb0f5622f0b75c914a3c2r1-1024-655v2_hq.jpg");
+  background-image: url("https://i.pinimg.com/originals/1d/52/02/1d520240b47d68f43da0ba7a41c7c466.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -625,27 +394,22 @@
   padding-left: 5%;
   padding-right: 5%;
   margin: 0px; }
-  .separatist header {
-    font-size: 24px;
-    font-family: 'Orbitron', sans-serif; }
-  .separatist main {
-    font-size: 20px;
-    font-family: 'Alkalami', serif; }
-    .separatist main h3 {
-      font-size: 26px; }
-    .separatist main img {
-      height: 80%;
-      width: 100%; }
-    .separatist main p:hover {
-      color: #0038ee;
-      font-style: italic; }
-  .separatist section img {
-    height: 40%;
-    width: 60%; }
-  .separatist section p {
-    font-size: 18px;
-    font-family: 'Roboto Mono', monospace; }
-  .separatist section .factory {
+  .separatist header h2 {
+    text-shadow: 0 0 25px #00c5c5; }
+  .separatist main button {
+    font-weight: 700; }
+  .separatist main .crisis_separatist {
+    background-image: url("https://pm1.narvii.com/6439/4b30c61839e4d26bf630955bcc4e0d6b2d625fd6_hq.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    height: 100%;
+    background-size: cover;
+    padding: 3%;
+    text-shadow: 0 0 10px white;
+    color: #000f66;
+    font-weight: 700; }
+  .separatist main .factory {
     background-image: url("https://lumiere-a.akamaihd.net/v1/images/screen_shot_2015-05-13_at_4_46a06f3e.jpeg?region=96%2C0%2C2067%2C1035");
     background-repeat: no-repeat;
     background-position: center top;
@@ -653,11 +417,10 @@
     height: 100%;
     background-size: cover;
     padding: 3%;
-    font-family: 'Orbitron', sans-serif; }
-    .separatist section .factory p:hover {
-      color: #008800;
-      font-style: oblique; }
-  .separatist section .clone_wars {
+    text-shadow: 0 0 20px #023ca8;
+    color: white;
+    font-weight: 500; }
+  .separatist main .clone_wars {
     background-image: url("https://allgamersin.com/wp-content/uploads/2019/03/Star-Wars-Battlefront2-modo-Supremacia-Capital_1.jpg");
     background-repeat: no-repeat;
     background-position: center top;
@@ -665,13 +428,17 @@
     height: 100%;
     background-size: cover;
     padding: 3%;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 22px; }
-    .separatist section .clone_wars i {
-      font-size: 18px; }
-    .separatist section .clone_wars i:hover {
-      color: #000000;
-      font-weight: 800; }
+    text-shadow: 0 0 20px white;
+    color: #000f66;
+    font-weight: 700; }
+  .separatist section h3 {
+    text-shadow: 0 0 15px #7e0000; }
+  .separatist section img {
+    height: 40%;
+    width: 60%;
+    border-radius: 20px;
+    border: 6px double white;
+    box-shadow: 0 0 25px white; }
   .separatist section .droid_army {
     background-image: url("../img/droide_background.jpg");
     background-repeat: no-repeat;
@@ -686,9 +453,9 @@
       padding-left: 2%;
       padding-right: 2%;
       align-items: baseline;
-      justify-content: space-between;
-      font-family: 'Playfair Display', serif;
-      font-size: 22px; }
+      justify-content: space-between; }
+      .separatist section .droid_army .flex h3 {
+        text-shadow: 0 0 18px #6eadff; }
       .separatist section .droid_army .flex .black {
         background-color: black;
         background-size: cover; }
@@ -701,6 +468,7 @@
         width: 45%;
         height: auto;
         border: 4px solid #ffffff;
+        box-shadow: 0 0 35px #720000;
         border-radius: 10px; }
         .separatist section .droid_army .flex .cart_droid .fed_comercio {
           background-image: url("https://gcdn.lanetaneta.com/wp-content/uploads/2022/01/Star-Wars-Eclipse-%C2%BFLa-Federacion-de-Comercio-rompe-la-linea.5.jpeg");
@@ -708,21 +476,26 @@
           background-position: center top;
           background-attachment: scroll;
           background-size: cover; }
-          .separatist section .droid_army .flex .cart_droid .fed_comercio p:hover {
-            color: black;
-            font-weight: bolder; }
+          .separatist section .droid_army .flex .cart_droid .fed_comercio p {
+            color: #000000;
+            font-weight: 700;
+            text-shadow: 0 0 20px white; }
+          .separatist section .droid_army .flex .cart_droid .fed_comercio h4 {
+            font-weight: 700;
+            text-shadow: 0 0 20px #001aff; }
         .separatist section .droid_army .flex .cart_droid .tec_union {
           background-image: url("../img/Techno_Union.svg.webp");
           background-repeat: no-repeat;
           background-position: center top;
           background-attachment: scroll;
           background-size: cover; }
-          .separatist section .droid_army .flex .cart_droid .tec_union p:hover {
-            color: black;
-            font-weight: bolder; }
-    .separatist section .droid_army h3 {
-      font-family: 'Kanit', sans-serif;
-      font-size: 28px; }
+          .separatist section .droid_army .flex .cart_droid .tec_union p {
+            color: #000000;
+            font-weight: 700;
+            text-shadow: 0 0 20px white; }
+          .separatist section .droid_army .flex .cart_droid .tec_union h4 {
+            font-weight: 700;
+            text-shadow: 0 0 20px red; }
 
 @media screen and (max-width: 768px) {
   .separatist section .droid_army .flex {
@@ -751,66 +524,56 @@
   background-size: cover;
   color: white;
   text-align: center;
-  padding-top: 5%;
-  padding-left: 2%;
-  padding-right: 2%; }
-  .empire header h2 {
-    font-family: 'Merriweather', serif; }
-  .empire main h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px; }
-  .empire main h3 {
-    font-family: 'Ubuntu', sans-serif; }
-  .empire main p {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 18px; }
-  .empire main .purge_jedi {
-    background-image: url("https://i.pinimg.com/564x/77/cf/82/77cf82611f95c1eb42503520cd445f76--star-wars-artwork-starwars-lego.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    height: 100%;
-    background-size: cover;
-    padding: 5%;
-    color: #a30404;
-    font-weight: 600; }
-    .empire main .purge_jedi a {
-      color: #0084ff; }
-    .empire main .purge_jedi .orden_66 {
-      background-image: url("https://i.pinimg.com/originals/26/ad/4b/26ad4b68f78d21ed946ac64af8e3fad5.gif");
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 5%; }
+  .empire main {
+    color: #ffffff; }
+    .empire main .purge_jedi {
+      background-image: url("https://i.pinimg.com/564x/b6/5c/f6/b65cf603ae77e0ceb1552190daa2b833.jpg");
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-position: center;
       height: 100%;
       background-size: cover;
       padding: 5%; }
-  .empire main .empire_polity {
-    background-image: url("../img/empire_graffiti.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    height: 100%;
-    background-size: cover;
-    padding: 5%; }
-  .empire main .civil_war {
-    background-image: url("../img/civil_war.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    height: 100%;
-    background-size: cover;
-    padding: 5%;
-    color: black; }
-  .empire main .jakku_battle {
-    background-image: url("https://c.wallhere.com/photos/b7/88/Star_Wars_Jakku_science_fiction_battle_artwork-1940991.jpg!d");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    height: 100%;
-    background-size: cover;
-    padding: 5%; }
+      .empire main .purge_jedi .orden_66 {
+        background-image: url("https://i.pinimg.com/originals/71/19/b5/7119b52ddccf33cf3e205a64baa65ef0.jpg");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center;
+        height: 100%;
+        background-size: cover;
+        padding: 5%; }
+    .empire main .empire_polity {
+      background-image: url("../img/empire_graffiti.png");
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center;
+      height: 100%;
+      background-size: cover;
+      padding: 5%; }
+      .empire main .empire_polity .civil_war {
+        background-image: url("https://e1.pxfuel.com/desktop-wallpaper/502/776/desktop-wallpaper-star-wars-rebel-logo-rebel-alliance-vs-galactic-empire-thumbnail.jpg");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center;
+        height: 100%;
+        background-size: cover;
+        padding: 5%; }
+    .empire main .jakku_battle {
+      background-image: url("https://media.moddb.com/images/mods/1/32/31659/AT-AT.jpg");
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center;
+      height: 100%;
+      background-size: cover;
+      padding: 5%;
+      color: white;
+      font-weight: 500;
+      text-shadow: 0 0 15px #a10303; }
   .empire section {
-    background-image: url("https://uvn-brightspot.s3.amazonaws.com/assets/vixes/d/death_troopers_star_wars.jpg");
+    background-image: url("http://pm1.narvii.com/6234/ea8781f4d3eb3cd255ff518b8ebb9fb815624f94_00.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -819,37 +582,33 @@
     padding: 5%;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 5%;
-    font-family: 'Merriweather', serif; }
+    margin-top: 5%; }
     .empire section h2 {
       margin-top: 5%;
       margin-left: 5%;
       margin-right: 5%; }
-    .empire section img {
-      height: 40%;
-      width: 40%;
-      margin-bottom: 5%; }
     .empire section h3 {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 28px;
       margin-top: 3%;
       margin-bottom: 3%; }
     .empire section p {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 28px;
       margin-top: 5%;
       margin-bottom: 5%; }
-    .empire section .cart_trooper {
-      padding: 6%;
-      height: 40%; }
-  .empire .margin_create {
-    margin: 5%; }
+    .empire section img {
+      height: 450px; }
   .empire .padding_create_f_botton {
     padding-left: 5%;
     padding-right: 5%; }
 
+@media screen and (max-width: 768px) {
+  .empire section img {
+    height: 250px; } }
+
+@media screen and (max-width: 600px) {
+  .empire section img {
+    height: 150px; } }
+
 .rebels {
-  background-image: url("https://i.pinimg.com/originals/12/d9/33/12d9335e7342dc52300b6a0cc0748544.webp");
+  background-image: url("https://i.pinimg.com/736x/3f/77/41/3f77414591b10bf0a01dea7694c6f9e5.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -860,49 +619,44 @@
   padding-top: 5%;
   padding-left: 5%;
   padding-right: 5%; }
-  .rebels header h2 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 31px; }
   .rebels main {
     padding-top: 2%;
     padding-left: 2%;
     padding-right: 2%; }
     .rebels main .onderon {
-      background-image: url("../img/rebels_onderon.webp");
+      background-image: url("../img/rebels_onderon_.webp");
       background-repeat: no-repeat;
       background-position: center top;
       background-attachment: scroll;
       height: 100%;
       background-size: cover;
-      padding: 5%;
-      font-family: 'Orbitron', sans-serif; }
-      .rebels main .onderon p {
-        font-family: 'Kanit', sans-serif;
-        font-size: 20px; }
+      padding: 5%; }
     .rebels main .union {
-      background-image: url("../img/rebels_union.webp");
+      background-image: url("https://i.pinimg.com/564x/05/47/96/054796946f2c81ee1063a011171d1368.jpg");
       background-repeat: no-repeat;
-      background-position: center top;
+      background-position: center;
       background-attachment: scroll;
       height: 100%;
       background-size: cover;
-      padding: 5%;
-      font-family: 'Orbitron', sans-serif; }
-      .rebels main .union p {
-        font-family: 'Roboto', sans-serif;
-        font-size: 20px; }
+      padding: 5%; }
   .rebels section {
-    background-image: url("http://pm1.narvii.com/6866/b298dc36b9d67367c8bcac1cf0b708232a45f952r1-600-840v2_hq.jpg");
+    background-image: url("https://w0.peakpx.com/wallpaper/310/288/HD-wallpaper-x-wing-blue-squadron-rebel-star-fighter-star-wars.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center top;
+    background-position: center;
     height: 100%;
     background-size: cover;
     padding: 5%; }
+    .rebels section h3 {
+      color: #000000;
+      text-shadow: 0 0 10px red;
+      font-weight: 650; }
     .rebels section h4 {
-      font-family: 'Ubuntu', sans-serif; }
+      color: #ffffff;
+      font-weight: 500; }
     .rebels section p {
-      font-family: 'Merriweather', serif; }
+      color: #ffffff;
+      font-weight: 450; }
     .rebels section img {
       height: 40%;
       width: 40%;
@@ -924,8 +678,6 @@
   padding-left: 5%;
   padding-right: 5%; }
   .force_balance header h2 {
-    font-family: 'Josefin Sans', sans-serif;
-    color: #ffffff;
     text-shadow: 0 0 25px #ff0000; }
   .force_balance main {
     margin-left: 3%;
@@ -966,13 +718,6 @@
       text-align: center;
       padding-left: 5%;
       padding-right: 5%; }
-      .force_balance main .war_jedi h2 {
-        font-family: 'Secular One', sans-serif;
-        text-shadow: 0 0 20px #ffffff; }
-      .force_balance main .war_jedi p {
-        font-style: italic;
-        font-family: 'Bree Serif', serif;
-        font-size: 18px; }
     .force_balance main .war_mandalorian {
       background-repeat: no-repeat;
       background-image: url("../img/war_mandalore.webp");
@@ -980,15 +725,11 @@
       background-size: cover;
       text-align: center;
       padding-left: 5%;
-      padding-right: 5%;
-      color: white; }
-      .force_balance main .war_mandalorian h2 {
-        font-family: 'Secular One', sans-serif;
-        text-shadow: 0 0 20px #ffffff; }
-      .force_balance main .war_mandalorian p {
-        font-style: italic;
-        font-family: 'Bree Serif', serif;
-        font-size: 18px; }
+      padding-right: 5%; }
+    .force_balance main h2 {
+      text-shadow: 0 0 20px #ffffff; }
+    .force_balance main p {
+      font-style: italic; }
   .force_balance section {
     display: flex;
     flex-direction: column;
@@ -1011,8 +752,7 @@
       .force_balance section .jedi div {
         text-shadow: 0 0 20px #00e20b;
         box-shadow: 0 0 20px #00e20b;
-        padding: 3%;
-        font-family: 'Merriweather', serif; }
+        padding: 3%; }
     .force_balance section .sith {
       background-repeat: no-repeat;
       background-image: url("https://i.pinimg.com/originals/77/70/51/7770513ffe906b604b3695dc68255e90.jpg");
@@ -1023,8 +763,7 @@
       .force_balance section .sith div {
         padding: 3%;
         text-shadow: 0 0 20px #ff0000;
-        box-shadow: 0 0 20px #ff0000;
-        font-family: 'Ubuntu', sans-serif; }
+        box-shadow: 0 0 20px #ff0000; }
     .force_balance section .jedi_grey {
       background-repeat: no-repeat;
       background-image: url("http://pm1.narvii.com/7090/91c32627d53643442ae95f22b968865a0e836f72r1-600-849v2_00.jpg");
@@ -1035,8 +774,7 @@
       .force_balance section .jedi_grey div {
         text-shadow: 0 0 20px #915e00;
         box-shadow: 0 0 25px #915e00;
-        padding: 3%;
-        font-family: 'Kanit', sans-serif; }
+        padding: 3%; }
 
 @media screen and (max-width: 768px) {
   .force_balance section {
@@ -1044,9 +782,8 @@
     flex-direction: column;
     flex-wrap: wrap;
     flex-flow: wrap;
-    align-items: stretch;
+    align-items: center;
     justify-content: space-between;
-    justify-content: center;
     text-align: center;
     margin-left: 3%;
     margin-right: 3%; }
@@ -1071,9 +808,10 @@
       background-position: center;
       background-size: cover;
       text-align: center;
-      width: 45%; }
+      width: 45%;
+      color: #7c7c7c; }
       .force_balance section .sith div {
-        text-shadow: 0 0 20px #ff0000;
+        text-shadow: 0 0 10px #830000;
         box-shadow: 0 0 30px #ff0000;
         padding: 3%; }
     .force_balance section .jedi_grey {
@@ -1110,9 +848,10 @@
       background-position: center;
       background-size: cover;
       text-align: center;
-      width: 80%; }
+      width: 80%;
+      color: #ffffff; }
       .force_balance section .jedi div {
-        text-shadow: 0 0 20px #54b7f8;
+        text-shadow: 0 0 15px #003b63;
         box-shadow: 0 0 30px #54b7f8;
         padding: 3%; }
     .force_balance section .sith {
@@ -1139,27 +878,62 @@
         padding: 3%;
         color: #919191; } }
 
-.nav_guide {
+header {
   font-family: 'Orbitron', sans-serif; }
-  .nav_guide a {
+  header a {
     font-size: 24px; }
-  .nav_guide nav {
-    background-image: url("https://i.pinimg.com/originals/94/bc/07/94bc076520233b2021e4bf5e4fbe8bef.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  header h2 {
+    margin: 5%; }
+
+section h2 {
+  margin: 5%; }
+
+h1 {
+  font-size: 32px; }
+
+h2 {
+  font-size: 28px;
+  font-family: 'Merriweather', serif;
+  font-weight: 600; }
+
+h3 {
+  font-size: 24px;
+  font-family: 'DM Serif Display', serif; }
+
+h4 {
+  font-size: 22px;
+  font-family: 'Orbitron', sans-serif; }
+
+h5 {
+  font-size: 20px;
+  font-family: 'Merriweather', serif; }
+
+p {
+  font-size: 18px;
+  font-family: 'DM Serif Display', serif; }
+
+nav {
+  background-image: url("https://i.pinimg.com/originals/94/bc/07/94bc076520233b2021e4bf5e4fbe8bef.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50px;
+  display: block;
+  font-family: 'Orbitron', sans-serif; }
+  nav ul li {
+    font-size: 24px;
+    justify-self: stretch;
+    text-align: center;
     margin-right: 7%;
-    margin-left: 7%; }
-    .nav_guide nav ul li {
-      font-size: 24px;
-      justify-self: stretch;
-      margin-right: 7%;
-      margin-left: 7%;
-      padding: 2%;
-      text-align: justify; }
-      .nav_guide nav ul li a {
-        padding: 5%;
-        color: white; }
+    margin-left: 7%;
+    padding: 2%;
+    border-radius: 20px;
+    display: block; }
+    nav ul li a {
+      padding: 5%;
+      color: white; }
+    nav ul li a:hover {
+      color: white; }
 
 .credit:hover {
   background-repeat: no-repeat;
@@ -1210,19 +984,6 @@
   background-size: cover;
   text-align: center; }
 
-.flex {
-  display: flex;
-  flex-direction: row-reverse;
-  padding-left: 2%;
-  padding-right: 2%; }
-
-.transition {
-  transform: scale(1); }
-
-.transition:hover {
-  transform: scale(1.2);
-  transition: all 500ms ease-out; }
-
 .padding_create {
   padding-top: 5%;
   padding-bottom: 10%;
@@ -1231,8 +992,7 @@
 
 .pad_div {
   padding-bottom: 1%;
-  padding-top: 1%;
-  font-size: 26px; }
+  padding-top: 1%; }
 
 .margin_div {
   margin-bottom: 4%;
@@ -1243,6 +1003,11 @@
   margin-right: 1%;
   margin-top: 2%;
   margin-bottom: 2%; }
+
+.margin_space {
+  margin-right: 7%;
+  margin-left: 7%;
+  padding: 2%; }
 
 .contact {
   background-image: url("../img/welcome_commander.webp");
@@ -1271,8 +1036,7 @@
       border-radius: 10px;
       align-items: flex-end; }
       .contact section form .back_text {
-        background-color: black;
-        color: white; }
+        background-color: black; }
       .contact section form select {
         padding-top: 3%;
         padding-bottom: 3%;

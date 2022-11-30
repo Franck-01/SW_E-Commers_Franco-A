@@ -18,7 +18,6 @@
             width: 80%;
         }
         h1{
-            font-size: 26px;
             padding-top: 4%;
             padding-bottom: 4%;
         }
@@ -39,66 +38,6 @@
         a{
             color: white
         }
-        .cart_ship{
-            padding: 6%;
-            margin-left: 6%;
-            margin-right: 6%;
-            text-align: center;
-            width: 89%;
-            height: 80%;
-            img{
-                height: 40%;
-                width: 60%;
-            }
-        }
-        .rep:hover{
-            height: 100%;
-            color: white;
-        }
-        .csi:hover{
-            height: 100%;
-            color: white;
-        }
-        .imp:hover{
-            height: 100%;
-            color: white;
-        }
-        .reb:hover{
-            height: 100%;
-            color: white;
-        }
-        .rep:hover{
-            background-repeat: no-repeat;
-            background-image: url("http://pm1.narvii.com/6285/0abadec238bd7f41a9348356f40bb891411416b7_00.jpg");
-            background-position: center;
-            background-size: cover;
-            text-align: center;
-            height: 100%;
-        }
-        .csi:hover{
-            background-repeat: no-repeat;
-            background-image: url("https://pm1.narvii.com/6439/4b30c61839e4d26bf630955bcc4e0d6b2d625fd6_hq.jpg");
-            background-position: center;
-            background-size: cover;
-            text-align: center;
-            height: 100%;
-        }
-        .imp:hover{
-            background-repeat: no-repeat;
-            background-image: url("http://pm1.narvii.com/6234/ea8781f4d3eb3cd255ff518b8ebb9fb815624f94_00.jpg");
-            background-position: center;
-            background-size: cover;
-            text-align: center;
-            height: 100%;
-        }
-        .reb:hover{
-            background-repeat: no-repeat;
-            background-image: url("https://wallpapercave.com/wp/wp2149431.jpg");
-            background-position: center;
-            background-size: cover;
-            text-align: center;
-            height: 100%;
-        }
         .flex{
             display: flex;
             flex-direction: row;
@@ -108,19 +47,35 @@
             align-items: baseline;
             justify-content: space-between;
             div{
-                border: 2px solid #ffffff;
+                border: 6px double rgb(255, 255, 255);
+                box-shadow: 0 0 25px rgb(255, 255, 255);
                 padding: 2%;
                 margin: 2%;
                 text-align: center;
                 width: 40%;
                 height: auto;
-                background: rgb(2,0,36);
-                background: radial-gradient(circle, rgba(2,0,36,0) 0%, rgba(6,23,145,1) 57%, rgba(0,0,0,1) 100%);
                 border-radius: 10px;
                 img{
                     height: 40%;
                     width: 60%;
                 }
+            }
+            .rep_ship{
+                background: rgb(2,0,36);
+                background: radial-gradient(circle, rgba(2,0,36,0) 0%, rgba(15,33,159,1) 39%, rgba(0,0,0,1) 100%);
+            }
+            .csi_ship{
+                background: rgb(2,0,36);
+                background: radial-gradient(circle, rgba(2,0,36,0) 0%, rgba(91,91,91,1) 39%, rgba(0,0,0,1) 100%);
+            }
+            .emp_ship{
+                background: rgb(2,0,36);
+                background: radial-gradient(circle, rgba(2,0,36,0) 0%, rgba(159,15,15,1) 39%, rgba(0,0,0,1) 100%);
+            }
+            .reb_ship{
+                background: rgb(2,0,36);
+                background: radial-gradient(circle, rgba(2,0,36,0) 0%, rgba(159,92,15,1) 39%, rgba(0,0,0,1) 100%);
+
             }
         }
     }
@@ -137,15 +92,8 @@
                 align-items: baseline;
                 justify-content: space-between;
                 div{
-                    border: 2px solid #ffffff;
-                    padding: 2%;
-                    margin: 2%;
-                    text-align: center;
                     width: 100%;
                     height: auto;
-                    background: rgb(2,0,36);
-                    background: radial-gradient(circle, rgba(2,0,36,0) 0%, rgba(6,23,145,1) 57%, rgba(0,0,0,1) 100%);
-                    border-radius: 10px;
                 }
             }
         }
@@ -157,28 +105,6 @@
             img{
                 height: 100%;
                 width: 100%;
-            }
-        }
-        section{
-            .flex{
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                flex-flow: wrap;
-                padding: 10%;
-                align-items: baseline;
-                justify-content: space-between;
-                div{
-                    border: 2px solid #ffffff;
-                    padding: 2%;
-                    margin: 2%;
-                    text-align: center;
-                    width: 100%;
-                    height: auto;
-                    background: rgb(255,255,255);
-                    background: radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(154,8,8,1) 38%, rgba(0,0,0,1) 87%);
-                    border-radius: 10px;
-                }
             }
         }
     }

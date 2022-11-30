@@ -1,23 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="keywords" content="separatistas, siths, droides">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Separatists</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
     <link rel="stylesheet" href="../css/styles_scss.css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Bitter&family=Cairo:wght@500&family=Kanit:wght@300&family=Orbitron:wght@500&family=Playfair+Display:wght@500&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Merriweather&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
-<body class="separatist">   
-<header class="nav_guide">
+<body class="separatist container-fluid">   
+<header>
     <a href="../index.html">Inicio</a>
     <h1>Confederacion de Sistemas Independientes -- C.S.I</h1>
-    <h3><i>"Es un honor estar delante de ustedes, ya que representan la libertad y el futuro de nuestra galaxia. La otrora gran República y la Orden Jedi se han convertido en víctimas de sus propias ambiciones, y el Canciller Supremo no es más que un peón de monopolios corporativos"</i></h3>
-    <nav >
+    <h2><i>"Es un honor estar delante de ustedes, ya que representan la libertad y el futuro de nuestra galaxia. La otrora gran República y la Orden Jedi se han convertido en víctimas de sus propias ambiciones, y el Canciller Supremo no es más que un peón de monopolios corporativos"</i></h2>
+    <nav class="margin_space">
         <ul>
             <li class="credit"><a href="./e-commers.html">E-Commers</a></li>
             <li class="rep"><a href="./republic.html">REPUBLICA GALACTICA</a></li>
@@ -27,30 +30,51 @@
         </ul>
     </nav>
 </header>
-<main class="row">
-    <div class="col-sm-12 col-md-6">
-        <img src="https://pm1.narvii.com/6439/4b30c61839e4d26bf630955bcc4e0d6b2d625fd6_hq.jpg">
+<main>
+    <div class="accordion accordion-flush margin_space" id="accordionFlushExample">
+        <div class="accordion-item ">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    La Crisis que incio a los separatistas
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse crisis_separatist" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body padding_create">
+                    <p>Una <a href="./republic.html">Republica</a> que, en teoria, vela por e bien comun, centralizo el poder y el comercio en los Mundos del Núcleo, dejando marginados a los mundos del Borde Exterior, dejandolos a la merced de la injusticia, inestavilidad economica y el sometimiento de grupos criminales florecentes. Agrabando aun masla tencion entre los mundos centrales y los marginados</p>
+                    <p>En esta crisis, los <a href="./force.html">Jedis</a> protejieron a la galaxia del crimen, pero en base a la politica, alejandolos de los ideales basicos "neutrales" que deberian seguir los jedis, provocando el marginamiento y alejo de la orden de jedi a jedis como el Conde Dooku (padawan del Maestro Jedi, aprendiz de Darth Sidious y lider politico de los Separatistas)</p>
+                    <p>El Conde Dooku, formo la alianza la Separatistas con las principales organizacion economicas, las cuales contaban con varios sistemas a su cargo, tales como, La Federacion de Comercio, la Techno Union, el Clan Bancario, la Alianza Corporativa, el Gremio de Comerciantes y otros sistemas de importancia como Geonosis y Umbara</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    El Inminente Conflicto
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse factory" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body padding_create">
+                    <p>Con el descubrimiento de Obi-Wan Kenobi, sobre la existencia del Ejercito Clon en Kamino, el Senado Galactico voto por la utilizacion de dicho ejercito para su propia dejensa</p>
+                    <p>Con este nuevo ejercito, el Canciller Supremo Palpatine, al <a href="./republic.html">Gran Ejercito de la Republica</a> y la Armada de la Republica a Geonosis, con el finde de apoyar a los jedis enviados al rescate el Jedi Obi-Wan Kenobi, a su padawan Anakin Skywalker y a la Senadora Padme Amidala</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Las Guerras Clon
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse clone_wars" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body padding_create">
+                    <p>Durante la Guerra, ejercitos droides son dirigidos por comandantes y lideres de los mundos del Borde Exterior, figura de gran capacidad y conocimiento tactico y militar, tales como, el General Grievous, el Almirante Trench, entre muchos otros. Asi como el Conde Dooku, la asesina Oscura Asajj Ventress, al igual que la utilizacion de caza caza-recompenzas</p>
+                    <p>Aunque todos lo mundos eran conscientes de la guerra, se decia que el gobierno Separatista no tenia una participacion directa con el brazo armado de la misma</p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-sm-12 col-md-6">
-        <h3>La Crisis que incio a los separatistas</h3>
-        <p>Una <a href="./republic.html">Republica</a> que, en teoria, vela por e bien comun, centralizo el poder y el comercio en los Mundos del Núcleo, dejando marginados a los mundos del Borde Exterior, dejandolos a la merced de la injusticia, inestavilidad economica y el sometimiento de grupos criminales florecentes. Agrabando aun masla tencion entre los mundos centrales y los marginados</p>
-    </div>
-    <p>En esta crisis, los <a href="./force.html">Jedis</a> protejieron a la galaxia del crimen, pero en base a la politica, alejandolos de los ideales basicos "neutrales" que deberian seguir los jedis, provocando el marginamiento y alejo de la orden de jedi a jedis como el Conde Dooku (padawan del Maestro Jedi, aprendiz de Darth Sidious y lider politico de los Separatistas)</p>
-    <p>El Conde Dooku, formo la alianza la Separatistas con las principales organizacion economicas, las cuales contaban con varios sistemas a su cargo, tales como, La Federacion de Comercio, la Techno Union, el Clan Bancario, la Alianza Corporativa, el Gremio de Comerciantes y otros sistemas de importacion como Geonosis y Umbara</p>
 </main>
-<section class="row">
-    <div class="factory padding_create col-sm-12 col-md-6">
-        <h2>El Inminente Conflicto</h2>
-        <p>Con el descubrimiento de Obi-Wan Kenobi, sobre la existencia del Ejercito Clon en Kamino, el Senado Galactico voto por la utilizacion de dicho ejercito para su propia dejensa</p>
-        <p>Con este nuevo ejercito, el Canciller Supremo Palpatine, al <a href="./republic.html">Gran Ejercito de la Republica</a> y la Armada de la Republica a Geonosis, con el finde de apoyar a los jedis enviados al rescate el Jedi Obi-Wan Kenobi, a su padawan Anakin Skywalker y a la Senadora Padme Amidala</p>
-    </div>
-    <div class="clone_wars padding_create col-sm-12 col-md-6">
-        <h2>Las Guerras Clon</h2>
-        <i>
-            <p>Durante la Guerra, ejercitos droides son dirigidos por comandantes y lideres de los mundos del Borde Exterior, figura de gran capacidad y conocimiento tactico y militar, tales como, el General Grievous, el Almirante Trench, entre muchos otros. Asi como el Conde Dooku, la asesina Oscura Asajj Ventress, al igual que la utilizacion de caza caza-recompenzas</p>
-            <p>Aunque todos lo mundos eran conscientes de la guerra, se decia que el gobierno Separatista no tenia una participacion directa con el brazo armado de la misma</p>
-        </i>
-    </div>
+<section>
     <div class="droid_army padding_create">
         <i class="padding_create">
             <h3>El Ejercito Droide, conformado casi en su totalidad por los droides, conformaba una gran cantidad de efectivos aunquede de baja calidad, con el proposito de "cantidad por calidad", al contrario de los clones</h3>

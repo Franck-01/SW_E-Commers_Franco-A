@@ -1,5 +1,5 @@
 .separatist{
-    background-image: url("https://frikipolis.com/wp-content/uploads/2022/04/65600769f031b9c1bb3cb0f5622f0b75c914a3c2r1-1024-655v2_hq.jpg");
+    background-image: url("https://i.pinimg.com/originals/1d/52/02/1d520240b47d68f43da0ba7a41c7c466.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
@@ -12,32 +12,25 @@
     padding-right: 5%;
     margin: 0px;
     header{
-        font-size: 24px;
-        font-family: 'Orbitron', sans-serif;
+        h2{
+            text-shadow: 0 0 25px rgb(0, 197, 197);
+        }
     }
     main{
-        font-size: 20px;
-        font-family: 'Alkalami', serif;
-        h3{
-            font-size: 26px;
+        button{
+            font-weight: 700;
         }
-        img{
-            height: 80%;
-            width: 100%;
-        }
-        p:hover{
-            color: #0038ee;
-            font-style: italic;
-        }
-    }
-    section{
-        img{
-            height: 40%;
-            width: 60%;
-        }
-        p{
-            font-size: 18px;
-            font-family: 'Roboto Mono', monospace;
+        .crisis_separatist{
+            background-image: url("https://pm1.narvii.com/6439/4b30c61839e4d26bf630955bcc4e0d6b2d625fd6_hq.jpg");
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-attachment: scroll;
+            height: 100%;
+            background-size: cover;
+            padding: 3%;
+            text-shadow: 0 0 10px rgb(255, 255, 255);
+            color: rgb(0, 15, 102);
+            font-weight: 700;
         }
         .factory{
             background-image: url("https://lumiere-a.akamaihd.net/v1/images/screen_shot_2015-05-13_at_4_46a06f3e.jpeg?region=96%2C0%2C2067%2C1035");
@@ -47,11 +40,9 @@
             height: 100%;
             background-size: cover;
             padding: 3%;
-            font-family: 'Orbitron', sans-serif;
-            p:hover{
-                color: #008800;
-                font-style: oblique;
-            }
+            text-shadow: 0 0 20px rgb(2, 60, 168);
+            color: rgb(255, 255, 255);
+            font-weight: 500;
         }
         .clone_wars{
             background-image: url("https://allgamersin.com/wp-content/uploads/2019/03/Star-Wars-Battlefront2-modo-Supremacia-Capital_1.jpg");
@@ -61,15 +52,21 @@
             height: 100%;
             background-size: cover;
             padding: 3%;
-            font-family: 'Roboto Mono', monospace;
-            font-size: 22px;
-            i{
-                font-size: 18px;
-            }
-            i:hover{
-                color: #000000;
-                font-weight: 800;
-            }
+            text-shadow: 0 0 20px rgb(255, 255, 255);
+            color: rgb(0, 15, 102);
+            font-weight: 700;
+        }
+    }
+    section{
+        h3{
+            text-shadow: 0 0 15px rgb(126, 0, 0);
+        }
+        img{
+            height: 40%;
+            width: 60%;
+            border-radius: 20px;
+            border: 6px double rgb(255, 255, 255);
+            box-shadow: 0 0 25px rgb(255, 255, 255);
         }
         .droid_army{
             background-image: url("../img/droide_background.jpg");
@@ -86,8 +83,9 @@
                 padding-right: 2%;
                 align-items: baseline;
                 justify-content: space-between;
-                font-family: 'Playfair Display', serif;
-                font-size: 22px;
+                h3{
+                    text-shadow: 0 0 18px rgb(110, 173, 255);
+                }
                 .black{
                     background-color: black;
                     background-size: cover;
@@ -102,6 +100,7 @@
                     width: 45%;
                     height: auto;
                     border: 4px solid #ffffff;
+                    box-shadow: 0 0 35px rgb(114, 0, 0);
                     border-radius: 10px;
                     .fed_comercio{
                         background-image: url("https://gcdn.lanetaneta.com/wp-content/uploads/2022/01/Star-Wars-Eclipse-%C2%BFLa-Federacion-de-Comercio-rompe-la-linea.5.jpeg");
@@ -109,9 +108,14 @@
                         background-position: center top;
                         background-attachment: scroll;
                         background-size: cover;
-                        p:hover{
-                            color: black;
-                            font-weight: bolder;
+                        p{
+                            color: #000000;
+                            font-weight: 700;
+                            text-shadow: 0 0 20px rgb(255, 255, 255);
+                        }
+                        h4{
+                            font-weight: 700;
+                            text-shadow: 0 0 20px rgb(0, 26, 255);
                         }
                     }
                     .tec_union{
@@ -120,16 +124,17 @@
                         background-position: center top;
                         background-attachment: scroll;
                         background-size: cover;
-                        p:hover{
-                            color: black;
-                            font-weight: bolder;
+                        p{
+                            color: #000000;
+                            font-weight: 700;
+                            text-shadow: 0 0 20px rgb(255, 255, 255);
+                        }
+                        h4{
+                            font-weight: 700;
+                            text-shadow: 0 0 20px rgb(255, 0, 0);
                         }
                     }
                 }
-            }
-            h3{
-                font-family: 'Kanit', sans-serif;
-                font-size: 28px;
             }
         }
     }

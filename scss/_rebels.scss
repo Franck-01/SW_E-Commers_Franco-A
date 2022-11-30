@@ -1,5 +1,5 @@
 .rebels{
-    background-image: url("https://i.pinimg.com/originals/12/d9/33/12d9335e7342dc52300b6a0cc0748544.webp");
+    background-image: url("https://i.pinimg.com/736x/3f/77/41/3f77414591b10bf0a01dea7694c6f9e5.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
@@ -10,58 +10,49 @@
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
-    header{
-        h2{
-            font-family: 'Josefin Sans', sans-serif;
-            font-size: 31px;
-        }
-    }
     main{
         padding-top: 2%;
         padding-left: 2%;
         padding-right: 2%;
         .onderon{
-            background-image: url("../img/rebels_onderon.webp");
+            background-image: url("../img/rebels_onderon_.webp");
             background-repeat: no-repeat;
             background-position: center top;
             background-attachment: scroll;
             height: 100%;
             background-size: cover;
             padding: 5%;
-            font-family: 'Orbitron', sans-serif;
-            p{
-                font-family: 'Kanit', sans-serif;
-                font-size: 20px;
-            }
         }
         .union{
-            background-image: url("../img/rebels_union.webp");
+            background-image: url("https://i.pinimg.com/564x/05/47/96/054796946f2c81ee1063a011171d1368.jpg");
             background-repeat: no-repeat;
-            background-position: center top;
+            background-position: center;
             background-attachment: scroll;
             height: 100%;
             background-size: cover;
             padding: 5%;
-            font-family: 'Orbitron', sans-serif;
-            p{
-                font-family: 'Roboto', sans-serif;
-                font-size: 20px;
-            }
         }
     }
     section{
-        background-image: url("http://pm1.narvii.com/6866/b298dc36b9d67367c8bcac1cf0b708232a45f952r1-600-840v2_hq.jpg");
+        background-image: url("https://w0.peakpx.com/wallpaper/310/288/HD-wallpaper-x-wing-blue-squadron-rebel-star-fighter-star-wars.jpg");
         background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center top;
+        background-attachment:fixed;
+        background-position: center;
         height: 100%;
         background-size: cover;
         padding: 5%;
+        h3{
+            color: #000000;
+            text-shadow: 0 0 10px rgb(255, 0, 0);
+            font-weight: 650;
+        }
         h4{
-            font-family: 'Ubuntu', sans-serif;
+            color: #ffffff;
+            font-weight: 500;
         }
         p{
-            font-family: 'Merriweather', serif;
+            color: #ffffff;
+            font-weight: 450;
         }
         img{
             height: 40%;

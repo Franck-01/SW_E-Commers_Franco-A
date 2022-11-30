@@ -1,7 +1,7 @@
 .republic{
-    background-image: url("https://www.starwarsnewsnet.com/wp-content/uploads/2021/11/Star-Wars-The-Old-Republic-Action-Scene.png");
+    background-image: url("https://64.media.tumblr.com/3082189dc21f71bddde6916fac52b57d/d8758a3ec87488c1-b7/s1280x1920/5f447b56277982604bcfdc3d9d71cb9a1238b322.png");
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center ;
     background-attachment: fixed;
     height: 100%;
     background-size: cover;
@@ -11,273 +11,177 @@
     padding-left: 5%;
     padding-right: 5%;
     header{
-        font-size: 24px;
-        font-family: 'Orbitron', sans-serif;
+        h2{
+            text-shadow: 0 0 25px rgb(141, 0, 0);
+        }
     }
     main{
-        font-family: 'Bree Serif', serif;
-        font-size: 20px;
-        .flex{
-            div{
-                padding: 2%;
-                margin: 2%;
-                width: 45%;
-                h3{
-                    font-size: 26px;
-                }
-                img{
-                    height: 60%;
-                    width: 100%;
-                }
-
-            }
-        }
         p{
-            text-align: justify;
-            padding-left: 3%;
-            padding-right: 3%;
+            color: rgb(255, 255, 255);
+            text-shadow: 0 0 20px rgb(2, 53, 219);
+            font-weight: 600;
         }
-        p:hover{
-            color: #1e03b6;
+        .republic_history{
+            background-image: url("../img/republic_logo.png");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            height: 100%;
+            background-size: cover;
+            padding: 5%;
         }
-    }
-    section{
-        font-family: 'DM Serif Display', serif;
-        font-size: 20px;
-        padding: 3%;
         .kamino{
             background-image: url("https://live.staticflickr.com/5654/30747840391_f65e3987a9_b.jpg");
             background-repeat: no-repeat;
             background-attachment: scroll;
             background-position: center;
+            height: 100%;
             background-size: cover;
-            h2{
-                font-family: 'Anton', sans-serif;
-                font-size: 36px;
-            }
+            padding: 5%;
         }
         .geonosis{
-            background-image: url("../img/ataque_geonosis.jpg");
+            background-image: url("https://pbs.twimg.com/media/DzfSp0xWoAYu0e_.jpg");
             background-repeat: no-repeat;
             background-attachment: scroll;
             background-position: center;
+            height: 100%;
             background-size: cover;
+            padding: 5%;
         }
-        div{
-            background-image: url("https://gcdn.lanetaneta.com/wp-content/uploads/2019/07/Send-In-The-Clones-10-preguntas-sobre-los-soldados-clon-780x405.jpg");
+        button{
+            padding: 1.1%;
+        }
+    }
+    section{
+        .clones{
+            background-image: url("https://i.pinimg.com/564x/4d/ff/95/4dff95c6a774e7ba5312f8e2494a8f14.jpg");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            height: 100%;
+            background-size: cover; 
+            padding: 3%;
+            margin-top: 5%;
+            img{
+                height: 450px;
+                width: auto;
+            }
+            h2{
+                text-shadow: 0 0 25px rgb(141, 0, 0);
+            }
+            .marines_4{
+                img{
+                    border: 6px double rgb(79, 0, 110);
+                    box-shadow: 0 0 25px rgb(79, 0, 110);
+                }
+                text-shadow: 0 0 20px rgb(255, 133, 204);
+                color: rgb(255, 133, 204);
+            }
+            .batall_212{
+                img{
+                    border: 6px double rgb(255, 187, 0);
+                    box-shadow: 0 0 25px rgb(255, 187, 0);
+                }
+                text-shadow: 0 0 20px rgb(255, 187, 0);
+                color: rgb(255, 187, 0);
+            }
+            .elite_41{
+                img{
+                    border: 6px double rgb(0, 82, 24);
+                    box-shadow: 0 0 25px rgb(0, 82, 24);
+                }
+                text-shadow: 0 0 20px rgb(3, 143, 45);
+                color: rgb(3, 143, 45);
+            }
+            .movil_91{
+                img{
+                    border: 6px double rgb(255, 255, 255);
+                    box-shadow: 0 0 25px rgb(243, 66, 66);
+                }
+                text-shadow: 0 0 20px rgb(243, 66, 66);
+                color: rgb(255, 255, 255);
+            }
+            .star_327{
+                img{
+                    border: 6px double rgb(99, 76, 3);
+                    box-shadow: 0 0 25px rgb(99, 76, 3);
+                }
+                text-shadow: 0 0 20px rgb(255, 166, 0);
+                color: rgb(255, 166, 0);
+            }
+            .legion_501{
+                img{
+                    border: 6px double rgb(0, 18, 184);
+                    box-shadow: 0 0 25px rgb(0, 18, 184);
+                }
+                text-shadow: 0 0 20px rgb(18, 123, 243);
+                color: rgb(255, 255, 255);
+            }
+            .batall_104{
+                img{
+                    border: 6px double rgb(63, 63, 63);
+                    box-shadow: 0 0 25px rgb(63, 63, 63);
+                }
+                text-shadow: 0 0 20px rgb(255, 255, 255);
+                color: rgb(255, 255, 255);
+            }
+            .coruscant{
+                img{
+                    border: 6px double rgb(70, 0, 0);
+                    box-shadow: 0 0 25px rgb(70, 0, 0);
+                }
+                text-shadow: 0 0 20px rgb(255, 0, 0);
+                color: rgb(255, 255, 255);
+            }
+            .bad_99{
+                img{
+                    border: 6px double rgb(0, 0, 0);
+                    box-shadow: 0 0 25px rgb(150, 5, 5);
+                }
+                text-shadow: 0 0 20px rgb(150, 5, 5);
+                color: rgb(255, 255, 255);
+            }
+            .delta{
+                img{
+                    border: 6px double rgb(141, 68, 0);
+                    box-shadow: 0 0 25px rgb(0, 104, 0);
+                }
+                text-shadow: 0 0 20px rgb(207, 5, 5);
+                color: rgb(214, 200, 3);
+            }
+        }
+        .final_war{
+            background-image: url("https://i.pinimg.com/originals/8c/1f/1c/8c1f1c008e1a5b71d5292b65bd8eb52c.jpg");
             background-repeat: no-repeat;
             background-position: center top;
             background-attachment: fixed;
             height: 100%;
-            background-size: cover; 
-            padding: 3%;
-            h3{
-                font-family: 'Orbitron', sans-serif; 
-            }
-            h4{
-                font-family: 'Orbitron', sans-serif;
-                color: black;
-                font-weight: bold;
-                border: 10px dashed black;
-                padding: 2%;
-                margin: 8%;
-                text-transform: uppercase;
-                background: black;
-                background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, white 50%);
-            }
-            h4:hover{
-                transition: all 500ms ease-out;
-                color: white;
-                font-weight: bold;
-                border: 10px dashed white;
-                background: black;
-                background: linear-gradient(90deg, black 50%, rgba(255, 255, 255, 0) 100%);
-            }
-            div{
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                flex-flow: wrap;
-                align-items: baseline;
-                justify-content: center;
-                .cart{
-                    border: 6px double #ffffff;
-                    box-shadow: 0 0 25px #000000;
-                    text-shadow: 0 0 15px rgb(255, 255, 255);
-                    color: black;
-                    border-radius: 10px;
-                    padding-left: 5%;
-                    padding-right: 5%;
-                    margin: 2%;
-                    text-align: center;
-                    width: 45%;
-                    height: auto;
-                    font-family: 'Bree Serif', serif;
-                }
-                .marines_4{
-                    background-image: url("https://github.com/Franck-01/Proyect_07/blob/main/srx/public/img/4_ejercito_de_sector.jpg?raw=true");
-                    background-repeat: no-repeat;
-                    background-attachment: scroll;
-                    background-position: center;
-                }
-                .marines_4:hover{
-                    border: 6px double rgb(79, 0, 110);
-                    box-shadow: 0 0 25px rgb(79, 0, 110);
-                    text-shadow: 0 0 20px rgb(255, 133, 204);
-                    color: rgb(255, 133, 204);
-                }
-                .batall_212{
-                    background-image: url("https://pbs.twimg.com/media/FPGdzSGXoAMN1XF.jpg");
-                    background-repeat: no-repeat;
-                    background-attachment: scroll;
-                    background-position: center;
-                }
-                .batall_212:hover{
-                    border: 6px double rgb(255, 187, 0);
-                    box-shadow: 0 0 25px rgb(255, 187, 0);
-                    text-shadow: 0 0 20px rgb(255, 187, 0);
-                    color: rgb(255, 187, 0);
-                }
-                .elite_41{
-                    background-image: url("https://pm1.narvii.com/6978/7c22923d4a21ce46cdebe4a7232b68677e364635r1-1920-1080v2_hq.jpg");
-                    background-repeat: no-repeat;
-                    background-attachment: scroll;
-                    background-position: center;
-                }
-                .elite_41:hover{
-                    border: 6px double rgb(0, 82, 24);
-                    box-shadow: 0 0 25px rgb(0, 82, 24);
-                    text-shadow: 0 0 20px rgb(3, 143, 45);
-                    color: rgb(3, 143, 45);
-                }
-                .movil_91{
-                    background-image: url("https://github.com/Franck-01/Proyect_07/blob/main/srx/public/img/91_cuerpo_de_reconocimiento_movil.jpg?raw=true");
-                    background-repeat: no-repeat;
-                    background-attachment: scroll;
-                    background-position: center;
-                }
-                .movil_91:hover{
-                    border: 6px double rgb(255, 255, 255);
-                    box-shadow: 0 0 25px rgb(255, 255, 255);
-                    text-shadow: 0 0 20px rgb(243, 66, 66);
-                    color: rgb(243, 66, 66);
-                }
-                .star_327{
-                    background-image: url("https://github.com/Franck-01/Proyect_07/blob/main/srx/public/img/star_corps_327.jpeg?raw=true");
-                    background-repeat: no-repeat;
-                    background-attachment: scroll;
-                    background-position: center;
-                }
-                .star_327:hover{
-                    border: 6px double rgb(99, 76, 3);
-                    box-shadow: 0 0 25px rgb(99, 76, 3);
-                    text-shadow: 0 0 20px rgb(255, 166, 0);
-                    color: rgb(255, 166, 0);
-                }
-                .legion_501{
-                    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a0853385-8a52-4b79-89c3-ffe5a26ba950/de6ztm6-d8cf094b-c766-4445-bc95-04a56aac9704.jpg/v1/fill/w_1192,h_670,q_70,strp/star_wars___anakin_skywalker_and_the_501st_by_andibaze_de6ztm6-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvYTA4NTMzODUtOGE1Mi00Yjc5LTg5YzMtZmZlNWEyNmJhOTUwXC9kZTZ6dG02LWQ4Y2YwOTRiLWM3NjYtNDQ0NS1iYzk1LTA0YTU2YWFjOTcwNC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.1yoWxSrwnL1I0mBbjF__syOJpTwuzEl419rpZeeCmwE");
-                    background-repeat: no-repeat;
-                    background-attachment: scroll;
-                    background-position: center;
-                }
-                .legion_501:hover{
-                    border: 6px double rgb(0, 18, 184);
-                    box-shadow: 0 0 25px rgb(0, 18, 184);
-                    text-shadow: 0 0 20px rgb(18, 123, 243);
-                    color: rgb(18, 123, 243);
-                }
-                .company_322{
-                    background-image: url("https://i.pinimg.com/originals/f8/76/48/f876482ebf67ec287cd0462f52f29b80.jpg");
-                    background-repeat: no-repeat;
-                    background-attachment: scroll;
-                    background-position: center;
-                }
-                .company_322:hover{
-                    color: rgb(192, 103, 1);
-                    box-shadow: 0 0 25px rgb(192, 103, 1);
-                    text-shadow: 0 0 20px rgb(192, 103, 1);
-                }
-                .batall_104{
-                    background-image: url("https://pm1.narvii.com/6621/f4ac126824d448213976bc049bc9cc0fa5d9c307_hq.jpg");
-                    background-repeat: no-repeat;
-                    background-attachment: scroll;
-                    background-position: center;
-                }
-                .batall_104:hover{
-                    border: 6px double rgb(63, 63, 63);
-                    box-shadow: 0 0 25px rgb(63, 63, 63);
-                    text-shadow: 0 0 20px rgb(255, 255, 255);
-                    color: rgb(255, 255, 255);
-                }
-                .coruscant{
-                    background-image: url("https://wallpapercave.com/wp/wp2069345.jpg");
-                    background-repeat: no-repeat;
-                    background-attachment: scroll;
-                    background-position: center;
-                }
-                .coruscant:hover{
-                    border: 6px double rgb(70, 0, 0);
-                    box-shadow: 0 0 25px rgb(70, 0, 0);
-                    text-shadow: 0 0 20px rgb(255, 0, 0);
-                    color: rgb(255, 0, 0);
-                }
-                .bad_99{
-                    background-image: url("https://lumiere-a.akamaihd.net/v1/images/610be24859bb270001e56d7c-image_5d11d124.jpeg?region=0%2C0%2C1536%2C864");
-                    background-repeat: no-repeat;
-                    background-attachment: scroll;
-                    background-position: center;
-                }
-                .bad_99:hover{
-                    border: 6px double rgb(0, 0, 0);
-                    box-shadow: 0 0 25px rgb(0, 0, 0);
-                    text-shadow: 0 0 20px rgb(150, 5, 5);
-                    color: rgb(150, 5, 5);
-                }
-                .delta{
-                    background-image: url("https://images.squarespace-cdn.com/content/v1/5fbc4a62c2150e62cfcb09aa/ab756c56-8442-4f7c-a304-c7db1eec3c6c/658109-star-wars-republic-commando-sci-fi-strategy-tactical-shooter-action-fighting-1swrc-1.jpg");
-                    background-repeat: no-repeat;
-                    background-attachment: scroll;
-                    background-position: center;
-                }
-                .delta:hover{
-                    border: 6px double rgb(255, 255, 255);
-                    box-shadow: 0 0 25px rgb(255, 255, 255);
-                    text-shadow: 0 0 20px rgb(255, 255, 255);
-                    color: rgb(207, 5, 5);
-                }
-            }
-        }
-    }
-    .final_war{
-        background-image: url("https://i.pinimg.com/originals/8c/1f/1c/8c1f1c008e1a5b71d5292b65bd8eb52c.jpg");
-        background-repeat: no-repeat;
-        background-position: center top;
-        background-attachment: fixed;
-        height: 100%;
-        background-size: cover;
-        color:white;
-        text-align: center;
-        padding-top: 5%;
-        padding-left: 5%;
-        padding-right: 5%;
-        font-family: 'Orbitron', sans-serif;
-        .flex{
-            div{
-                margin: 1%;
-                width: 49%;
-            }
-        }
-        .red:hover{
-            transition: all 500ms ease-out;
-            color: #b80000;
-            text-shadow: 0 0 20px rgb(255, 255, 255);
-            font-weight: 700;
-        }
-        p{
-            font-family: 'Bree Serif', serif;
-            font-size: 22px;
+            background-size: cover;
+            color:white;
+            text-align: center;
             padding-left: 5%;
             padding-right: 5%;
+            .flex{
+                div{
+                    margin: 1%;
+                    width: 49%;
+                }
+            }
+            p{
+                color: rgb(255, 255, 255);
+                text-shadow: 0 0 20px rgb(2, 53, 219);
+                font-weight: 600;
+                padding-left: 5%;
+                padding-right: 5%;
+            }
+            p:hover{
+                transition: all 500ms ease-out;
+                color: #b80000;
+                text-shadow: 0 0 20px rgb(255, 255, 255);
+                font-weight: 600;
+                padding-left: 5%;
+                padding-right: 5%;
+            }
         }
     }
     .padding_create_min{
@@ -286,56 +190,23 @@
 }  
 @media screen and (max-width: 768px){
     .republic{
-        main{
-            .flex{
-                display: flex;
-                flex-direction: column;
-                padding-left: 2%;
-                padding-right: 2%;
-                div{
-                    padding: 2%;
-                    margin: 2%;
-                    text-align: center;
-                    width: 100%;
-                    height: auto;
-                    img{
-                        height: 60%;
-                        width: 100%;
-                    }
-                }
-                p{
-                    text-align: justify;
-                    padding-left: 3%;
-                    padding-right: 3%;
-                }
-                p:hover{
-                    color: #1e03b6;
-                }
-            }
-        }
         section{
-            .cart{
-                border: 6px double #ffffff;
-                padding-left: 5%;
-                padding-right: 5%;
-                margin: 2%;
-                text-align: center;
-                width: 90%;
-                height: auto;
-                border-radius: 10px;
-                font-family: 'Bree Serif', serif;
+            .clones{
+                img{
+                    height: 350px;
+                }
             }
-        }
-        .final_war{
-            .flex{
-                display: flex;
-                flex-direction: column-reverse;
-                padding-left: 5%;
-                padding-right: 5%;
-                div{
-                    margin: 1%;
-                    text-align: center;
-                    width: 90%;
+            .final_war{
+                .flex{
+                    display: flex;
+                    flex-direction: column-reverse;
+                    padding-left: 5%;
+                    padding-right: 5%;
+                    div{
+                        margin: 1%;
+                        text-align: center;
+                        width: 90%;
+                    }
                 }
             }
         }
@@ -343,60 +214,23 @@
 }
 @media screen and (max-width: 600px){
     .republic{
-        main{
-            .flex{
-                display: flex;
-                flex-direction: column;
-                padding-left: 2%;
-                padding-right: 2%;
-                div{
-                    padding: 2%;
-                    margin: 2%;
-                    text-align: center;
-                    width: 100%;
-                    height: auto;
-                    img{
-                        height: 60%;
-                        width: 100%;
-                    }
-                }
-                p{
-                    text-align: justify;
-                    padding-left: 3%;
-                    padding-right: 3%;
-                }
-                p:hover{
-                    color: #1e03b6;
+        section{
+            .clones{
+                img{
+                    height: 200px;
                 }
             }
-        }
-        section{
-            div{
-                div{
-                    .cart{
-                        border: 6px double #ffffff;
-                        padding-left: 5%;
-                        padding-right: 5%;
-                        margin: 2%;
+            .final_war{
+                .flex{
+                    display: flex;
+                    flex-direction: column-reverse;
+                    padding-left: 5%;
+                    padding-right: 5%;
+                    div{
+                        margin: 1%;
                         text-align: center;
                         width: 90%;
-                        height: auto;
-                        border-radius: 10px;
-                        font-family: 'Bree Serif', serif;
                     }
-                }
-            }
-        }
-        .final_war{
-            .flex{
-                display: flex;
-                flex-direction: column-reverse;
-                padding-left: 5%;
-                padding-right: 5%;
-                div{
-                    margin: 1%;
-                    text-align: center;
-                    width: 90%;
                 }
             }
         }
