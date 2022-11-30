@@ -114,6 +114,12 @@ nav{
     background-size: cover;
     text-align: center;
 }
+.flex{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 2%;
+    padding-right: 2%;
+}
 
 .padding_create{
     padding-top: 5%;
