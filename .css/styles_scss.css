@@ -878,55 +878,167 @@
   justify-content: space-between;
   text-align: center;
 }
-.force_balance section h2 {
-  color: white;
-  z-index: 2;
-  background-color: transparent;
-  text-align: center;
+.force_balance section div {
+  border-radius: 20px;
+  padding: 1%;
+  height: auto;
 }
-.force_balance section h3 {
-  color: white;
-  z-index: 2;
-  background-color: transparent;
-  text-align: center;
-}
-.force_balance section .jedi .target {
-  box-shadow: 0px 0px 20px #00e20b;
-}
-.force_balance section .jedi .target::before {
-  background-image: conic-gradient(#abffaf 20deg, transparent 120deg);
-}
-.force_balance section .jedi .target::after {
+.force_balance section .jedi {
+  background-repeat: no-repeat;
   background-image: url("https://p4.wallpaperbetter.com/wallpaper/876/503/584/luke-skywalker-the-mandalorian-star-wars-galaxies-star-wars-jedi-hd-wallpaper-preview.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  width: 30%;
+  text-shadow: 0 0 20px #4f00e2;
+  box-shadow: 0 0 20px #00e20b;
+  padding: 3%;
 }
-.force_balance section .jedi .text {
-  text-shadow: 0 0 20px #00e20b;
-}
-.force_balance section .sith .target {
-  box-shadow: 0px 0px 20px #ff0000;
-}
-.force_balance section .sith .target::before {
-  background-image: conic-gradient(#ff4a4a 20deg, transparent 120deg);
-}
-.force_balance section .sith .target::after {
+.force_balance section .sith {
+  background-repeat: no-repeat;
   background-image: url("https://i.pinimg.com/originals/77/70/51/7770513ffe906b604b3695dc68255e90.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  width: 30%;
 }
-.force_balance section .sith .text {
+.force_balance section .sith div {
+  padding: 3%;
   text-shadow: 0 0 20px #ff0000;
+  box-shadow: 0 0 20px #ff0000;
 }
-.force_balance section .jedi_grey .target {
-  box-shadow: 0px 0px 20px #915e00;
-}
-.force_balance section .jedi_grey .target::before {
-  background-image: conic-gradient(#8f723d 20deg, transparent 120deg);
-}
-.force_balance section .jedi_grey .target::after {
+.force_balance section .jedi_grey {
+  background-repeat: no-repeat;
   background-image: url("http://pm1.narvii.com/7090/91c32627d53643442ae95f22b968865a0e836f72r1-600-849v2_00.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  width: 30%;
 }
-.force_balance section .jedi_grey .text {
+.force_balance section .jedi_grey div {
   text-shadow: 0 0 20px #915e00;
+  box-shadow: 0 0 25px #915e00;
+  padding: 3%;
 }
 
+@media screen and (max-width: 768px) {
+  .force_balance section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .force_balance section div {
+    border-radius: 20px;
+    padding: 2%;
+    height: auto;
+  }
+  .force_balance section .jedi {
+    background-repeat: no-repeat;
+    background-image: url("../img/jedi_republic.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 45%;
+  }
+  .force_balance section .jedi div {
+    padding: 3%;
+    text-shadow: 0 0 20px #0059ff;
+    box-shadow: 0 0 30px #0059ff;
+  }
+  .force_balance section .sith {
+    background-repeat: no-repeat;
+    background-image: url("https://wallpaperaccess.com/full/2719303.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 45%;
+    color: #7c7c7c;
+  }
+  .force_balance section .sith div {
+    text-shadow: 0 0 10px #830000;
+    box-shadow: 0 0 30px #ff0000;
+    padding: 3%;
+  }
+  .force_balance section .jedi_grey {
+    background-repeat: no-repeat;
+    background-image: url("https://i.pinimg.com/736x/f5/10/0b/f5100bb50d58f118c5b54858c66755e1--star-wars-jedi-star-wars-art.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 80%;
+  }
+  .force_balance section .jedi_grey div {
+    text-shadow: 0 0 20px #d1c303;
+    box-shadow: 0 0 30px #d1c303;
+    padding: 3%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .force_balance section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .force_balance section div {
+    border-radius: 20px;
+    padding: 5%;
+    height: auto;
+  }
+  .force_balance section .jedi {
+    background-repeat: no-repeat;
+    background-image: url("https://cdn.wallpapersafari.com/68/31/ZnylIh.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 80%;
+    color: #ffffff;
+  }
+  .force_balance section .jedi div {
+    text-shadow: 0 0 15px #003b63;
+    box-shadow: 0 0 30px #54b7f8;
+    padding: 3%;
+  }
+  .force_balance section .sith {
+    background-repeat: no-repeat;
+    background-image: url("https://pm1.narvii.com/6906/9ee3c63e40a56acd09967908ac1474c466e22d29r1-1280-800v2_hq.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 80%;
+  }
+  .force_balance section .sith div {
+    text-shadow: 0 0 20px #000000;
+    box-shadow: 0 0 30px #000000;
+    padding: 3%;
+  }
+  .force_balance section .jedi_grey {
+    background-repeat: no-repeat;
+    background-image: url("https://i.pinimg.com/originals/f0/15/97/f01597a146d6c5a1577cc74449551bd1.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 80%;
+  }
+  .force_balance section .jedi_grey div {
+    text-shadow: 0 0 20px #d47f00;
+    box-shadow: 0 0 30px #d47f00;
+    padding: 3%;
+    color: #919191;
+  }
+}
 header {
   font-family: "Orbitron", sans-serif;
 }
@@ -1131,52 +1243,6 @@ nav ul li a:hover {
   padding-right: 1%;
   margin-top: 5%;
   margin-bottom: 5%;
-}
-
-.target {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
-  background-color: #101010;
-  border-radius: 10%;
-  padding: 1%;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 450px;
-  width: 300px;
-}
-
-.target::before {
-  content: "";
-  position: absolute;
-  animation: rotar 2s linear infinite;
-  height: 550px;
-  width: 450px;
-}
-
-.target::after {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  content: "";
-  height: 440px;
-  width: 290px;
-  position: absolute;
-  border-radius: 10%;
-  box-shadow: inset 16px 14px 20px rgba(0, 0, 0, 0.5490196078);
-}
-
-@keyframes rotar {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(-360deg);
-  }
 }
 
 /*# sourceMappingURL=styles_scss.css.map */

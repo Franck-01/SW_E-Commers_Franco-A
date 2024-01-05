@@ -189,3 +189,46 @@ nav{
         }
     }
 }
+.target{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+
+    background-color: #101010;
+    border-radius: 10%;
+    padding: 1%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 300px;
+}
+.target::before{
+    content: "";
+    position: absolute;
+    animation: rotar 2s linear infinite;
+    height: 550px;
+    width: 450px;
+}
+.target::after{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    content: "";
+    height: 440px;
+    width: 290px;
+    position: absolute;
+    border-radius: 10%;
+    box-shadow: inset 16px 14px 20px #0000008c;;
+}
+@keyframes rotar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
